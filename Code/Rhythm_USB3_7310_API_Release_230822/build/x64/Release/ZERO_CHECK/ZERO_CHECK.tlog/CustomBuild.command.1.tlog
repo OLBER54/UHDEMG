@@ -1,0 +1,10 @@
+^C:\USERS\OLIVI\DOCUMENTS\UNIVERSITE LAVAL\MAITRISE\RHYTHM_USB3_7310_API_RELEASE_230822\BUILD\CMAKEFILES\F43EF191CEC9987EE8BB6AC76AA9841B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/olivi/Documents/Universite Laval/Maitrise/Rhythm_USB3_7310_API_Release_230822" "-BC:/Users/olivi/Documents/Universite Laval/Maitrise/Rhythm_USB3_7310_API_Release_230822/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/olivi/Documents/Universite Laval/Maitrise/Rhythm_USB3_7310_API_Release_230822/build/RHD_XEM7310_Test.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

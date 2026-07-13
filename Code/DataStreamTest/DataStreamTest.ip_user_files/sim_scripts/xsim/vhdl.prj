@@ -1,0 +1,17 @@
+vhdl xpm  \
+"C:/AMDDesignTools/2025.2/Vivado/data/ip/xpm/xpm_VCOMP.vhd" \
+
+vhdl xbip_utils_v3_0_15  \
+"../../ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" \
+
+vhdl mult_gen_v12_0_24  \
+"../../ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../DataStreamTest.gen/sources_1/ip/multiplier_18x18/sim/multiplier_18x18.vhd" \
+
+vhdl fifo_generator_v13_2_14  \
+"../../ipstatic/hdl/fifo_generator_v13_2_rfs.vhd" \
+
+# Do not sort compile order
+nosort

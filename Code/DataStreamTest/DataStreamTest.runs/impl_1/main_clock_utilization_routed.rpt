@@ -1,0 +1,598 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Mon Jun 15 15:25:49 2026
+| Host         : LAPTOP-H85DCTKA running 64-bit major release  (build 9200)
+| Command      : report_clock_utilization -file main_clock_utilization_routed.rpt
+| Design       : main
+| Device       : 7a75t-fgg484
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Utilization Report
+
+Table of Contents
+-----------------
+1. Clock Primitive Utilization
+2. Global Clock Resources
+3. Global Clock Source Details
+4. Local Clock Details
+5. Clock Regions: Key Resource Utilization
+6. Clock Regions : Global Clock Summary
+7. Device Cell Placement Summary for Global Clock g0
+8. Device Cell Placement Summary for Global Clock g1
+9. Device Cell Placement Summary for Global Clock g2
+10. Device Cell Placement Summary for Global Clock g3
+11. Device Cell Placement Summary for Global Clock g4
+12. Device Cell Placement Summary for Global Clock g5
+13. Device Cell Placement Summary for Global Clock g6
+14. Device Cell Placement Summary for Global Clock g7
+15. Device Cell Placement Summary for Global Clock g8
+16. Clock Region Cell Placement per Global Clock: Region X0Y0
+17. Clock Region Cell Placement per Global Clock: Region X1Y0
+18. Clock Region Cell Placement per Global Clock: Region X0Y1
+19. Clock Region Cell Placement per Global Clock: Region X1Y1
+20. Clock Region Cell Placement per Global Clock: Region X0Y2
+21. Clock Region Cell Placement per Global Clock: Region X1Y2
+22. Clock Region Cell Placement per Global Clock: Region X0Y3
+23. Clock Region Cell Placement per Global Clock: Region X1Y3
+
+1. Clock Primitive Utilization
+------------------------------
+
++----------+------+-----------+-----+--------------+--------+
+| Type     | Used | Available | LOC | Clock Region | Pblock |
++----------+------+-----------+-----+--------------+--------+
+| BUFGCTRL |    8 |        32 |   0 |            0 |      0 |
+| BUFH     |    1 |        96 |   0 |            0 |      0 |
+| BUFIO    |    0 |        24 |   0 |            0 |      0 |
+| BUFMR    |    0 |        12 |   0 |            0 |      0 |
+| BUFR     |    0 |        24 |   0 |            0 |      0 |
+| MMCM     |    3 |         6 |   1 |            0 |      0 |
+| PLL      |    1 |         6 |   1 |            0 |      0 |
++----------+------+-----------+-----+--------------+--------+
+
+
+2. Global Clock Resources
+-------------------------
+
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+| Global Id | Source Id | Driver Type/Pin | Constraint | Site           | Clock Region | Load Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock        | Driver Pin                                                                              | Net                                                                            |
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |                 6 |        6052 |               0 |       10.000 | clk_pll_i    | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/u_bufg_clkdiv0/O  | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK      |
+| g1        | src1      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y2  | n/a          |                 6 |        3229 |               0 |       11.905 | clk_out_6    | variable_freq_clk_generator_inst/BUFGMUX_CTRL_inst/O                                    | variable_freq_clk_generator_inst/clkout                                        |
+| g1        | src2      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y2  | n/a          |                 6 |        3229 |               0 |       11.905 | clk_out_4    | variable_freq_clk_generator_inst/BUFGMUX_CTRL_inst/O                                    | variable_freq_clk_generator_inst/clkout                                        |
+| g2        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |                 8 |        2437 |               0 |        9.920 | mmcm0_clk0   | okHI/mmcm0_bufg/O                                                                       | okHI/CLK                                                                       |
+| g3        | src4      | BUFG/O          | None       | BUFGCTRL_X0Y3  | n/a          |                 1 |         224 |               0 |              |              | HPF_state_reg[0]_i_2/O                                                                  | clk                                                                            |
+| g4        | src5      | BUFG/O          | None       | BUFGCTRL_X0Y1  | n/a          |                 3 |          65 |               0 |        5.000 | sys_clk      | sys_clk_BUFG_inst/O                                                                     | sys_clk_BUFG                                                                   |
+| g5        | src6      | BUFG/O          | None       | BUFGCTRL_X0Y4  | n/a          |                 1 |          32 |               0 |              |              | HPF_state_reg[0]_i_2__0/O                                                               | clk_0                                                                          |
+| g6        | src7      | BUFG/O          | None       | BUFGCTRL_X0Y5  | n/a          |                 2 |          32 |               0 |              |              | ti40/ep_trigger[9]_BUFG_inst/O                                                          | ti40/ep_trigger_BUFG[9]                                                        |
+| g7        | src8      | BUFH/O          | None       | BUFHCE_X0Y24   | X0Y2         |                 1 |           1 |               0 |       10.000 | pll_clk3_out | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/u_bufh_pll_clk3/O | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/pll_clk3 |
+| g8        | src9      | BUFG/O          | None       | BUFGCTRL_X0Y6  | n/a          |                 1 |           1 |               0 |        9.920 | mmcm0_clkfb  | okHI/mmcm0fb_bufg/O                                                                     | okHI/mmcm0_clkfb_bufg                                                          |
++-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------+-----------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+
+
+3. Global Clock Source Details
+------------------------------
+
++-----------+-----------+---------------------+-----------------+-----------------+--------------+-------------+-----------------+---------------------+--------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| Source Id | Global Id | Driver Type/Pin     | Constraint      | Site            | Clock Region | Clock Loads | Non-Clock Loads | Source Clock Period | Source Clock | Driver Pin                                                                                     | Net                                                                                |
++-----------+-----------+---------------------+-----------------+-----------------+--------------+-------------+-----------------+---------------------+--------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| src0      | g0        | MMCME2_ADV/CLKFBOUT | MMCME2_ADV_X0Y2 | MMCME2_ADV_X0Y2 | X0Y2         |           1 |               0 |              10.000 | clk_pll_i    | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i/CLKFBOUT | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/clk_pll_i    |
+| src1      | g1        | MMCME2_ADV/CLKOUT6  | None            | MMCME2_ADV_X0Y0 | X0Y0         |           1 |               0 |              11.905 | clk_out_6    | variable_freq_clk_generator_inst/MMCME2_ADV_inst/CLKOUT6                                       | variable_freq_clk_generator_inst/clk_out_6                                         |
+| src2      | g1        | MMCME2_ADV/CLKOUT4  | None            | MMCME2_ADV_X0Y0 | X0Y0         |           0 |               0 |             238.095 | clk_out_4    | variable_freq_clk_generator_inst/MMCME2_ADV_inst/CLKOUT4                                       | variable_freq_clk_generator_inst/clk_out_4                                         |
+| src3      | g2        | MMCME2_ADV/CLKOUT0  | None            | MMCME2_ADV_X0Y1 | X0Y1         |           1 |               0 |               9.920 | mmcm0_clk0   | okHI/mmcm0/CLKOUT0                                                                             | okHI/mmcm0_clk0                                                                    |
+| src4      | g3        | FDRE/Q              | None            | SLICE_X31Y88    | X0Y1         |           1 |               0 |                     |              | DAC_output_8/state_clk_reg/Q                                                                   | DAC_output_8/state_clk_reg_0                                                       |
+| src5      | g4        | IBUFDS/O            | IOB_X0Y26       | IOB_X0Y26       | X0Y0         |           1 |               0 |               5.000 | sys_clk      | osc_clk/O                                                                                      | sys_clk                                                                            |
+| src6      | g5        | FDRE/Q              | None            | SLICE_X31Y88    | X0Y1         |           1 |               0 |                     |              | DAC_output_1/state_clk_reg/Q                                                                   | DAC_output_1/state_clk_reg_0                                                       |
+| src7      | g6        | FDCE/Q              | None            | SLICE_X51Y75    | X0Y1         |           1 |               0 |                     |              | ti40/ep_trigger_reg[9]/Q                                                                       | ti40/ep_trigger[9]                                                                 |
+| src8      | g7        | PLLE2_ADV/CLKOUT3   | PLLE2_ADV_X0Y2  | PLLE2_ADV_X0Y2  | X0Y2         |           1 |               0 |              10.000 | pll_clk3_out | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/plle2_i/CLKOUT3          | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/pll_clk3_out |
+| src9      | g8        | MMCME2_ADV/CLKFBOUT | None            | MMCME2_ADV_X0Y1 | X0Y1         |           1 |               0 |               9.920 | mmcm0_clkfb  | okHI/mmcm0/CLKFBOUT                                                                            | okHI/mmcm0_clkfb                                                                   |
++-----------+-----------+---------------------+-----------------+-----------------+--------------+-------------+-----------------+---------------------+--------------+------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+
+
+4. Local Clock Details
+----------------------
+
++----------+----------------------------+----------------------+-------------------------------------+--------------+-------------+-----------------+--------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Local Id | Driver Type/Pin            | Constraint           | Site/BEL                            | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock         | Driver Pin                                                                                                                                                                                                           | Net                                                                                                                                                                                                               |
++----------+----------------------------+----------------------+-------------------------------------+--------------+-------------+-----------------+--------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 0        | FDCE/Q                     | None                 | SLICE_X3Y62/AFF                     | X0Y1         |          16 |               0 |              |               | ti40/ep_trigger_reg[5]/Q                                                                                                                                                                                             | ti40/ep_trigger_BUFG[5]                                                                                                                                                                                           |
+| 1        | FDCE/Q                     | None                 | SLICE_X1Y91/BFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[0]/Q                                                                                                                                                                                             | ti42/ep_trigger[0]                                                                                                                                                                                                |
+| 2        | FDCE/Q                     | None                 | SLICE_X9Y92/BFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[1]/Q                                                                                                                                                                                             | ti42/ep_trigger[1]                                                                                                                                                                                                |
+| 3        | FDCE/Q                     | None                 | SLICE_X0Y84/AFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[2]/Q                                                                                                                                                                                             | ti42/ep_trigger[2]                                                                                                                                                                                                |
+| 4        | FDCE/Q                     | None                 | SLICE_X14Y84/AFF                    | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[3]/Q                                                                                                                                                                                             | ti42/ep_trigger[3]                                                                                                                                                                                                |
+| 5        | FDCE/Q                     | None                 | SLICE_X6Y83/AFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[4]/Q                                                                                                                                                                                             | ti42/ep_trigger[4]                                                                                                                                                                                                |
+| 6        | FDCE/Q                     | None                 | SLICE_X9Y75/BFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[5]/Q                                                                                                                                                                                             | ti42/ep_trigger[5]                                                                                                                                                                                                |
+| 7        | FDCE/Q                     | None                 | SLICE_X1Y70/AFF                     | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[6]/Q                                                                                                                                                                                             | ti42/ep_trigger[6]                                                                                                                                                                                                |
+| 8        | FDCE/Q                     | None                 | SLICE_X28Y79/AFF                    | X0Y1         |          16 |               0 |              |               | ti42/ep_trigger_reg[7]/Q                                                                                                                                                                                             | ti42/ep_trigger[7]                                                                                                                                                                                                |
+| 9        | PLLE2_ADV/CLKOUT0          | PLLE2_ADV_X0Y2       | PLLE2_ADV_X0Y2/PLLE2_ADV            | X0Y2         |           8 |               4 |        1.250 | freq_refclk   | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/plle2_i/CLKOUT0                                                                                                                                | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/freq_refclk                                                                                                                                 |
+| 10       | FDCE/Q                     | None                 | SLICE_X7Y98/AFF                     | X0Y1         |           8 |               0 |              |               | ti40/ep_trigger_reg[8]/Q                                                                                                                                                                                             | ti40/ep_trigger_BUFG[8]                                                                                                                                                                                           |
+| 11       | FDCE/Q                     | None                 | SLICE_X11Y102/AFF                   | X0Y2         |           4 |               0 |              |               | ti40/ep_trigger_reg[7]/Q                                                                                                                                                                                             | ti40/ep_trigger_BUFG[7]                                                                                                                                                                                           |
+| 12       | FDCE/Q                     | None                 | SLICE_X11Y102/BFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[24]/Q                                                                                                                                                                                            | ti42/ep_trigger[24]                                                                                                                                                                                               |
+| 13       | FDCE/Q                     | None                 | SLICE_X5Y105/AFF                    | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[25]/Q                                                                                                                                                                                            | ti42/ep_trigger[25]                                                                                                                                                                                               |
+| 14       | FDCE/Q                     | None                 | SLICE_X12Y110/AFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[26]/Q                                                                                                                                                                                            | ti42/ep_trigger[26]                                                                                                                                                                                               |
+| 15       | FDCE/Q                     | None                 | SLICE_X5Y105/BFF                    | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[27]/Q                                                                                                                                                                                            | ti42/ep_trigger[27]                                                                                                                                                                                               |
+| 16       | FDCE/Q                     | None                 | SLICE_X11Y102/CFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[28]/Q                                                                                                                                                                                            | ti42/ep_trigger[28]                                                                                                                                                                                               |
+| 17       | FDCE/Q                     | None                 | SLICE_X14Y109/AFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[29]/Q                                                                                                                                                                                            | ti42/ep_trigger[29]                                                                                                                                                                                               |
+| 18       | FDCE/Q                     | None                 | SLICE_X12Y110/BFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[30]/Q                                                                                                                                                                                            | ti42/ep_trigger[30]                                                                                                                                                                                               |
+| 19       | FDCE/Q                     | None                 | SLICE_X14Y109/BFF                   | X0Y2         |           4 |               0 |              |               | ti42/ep_trigger_reg[31]/Q                                                                                                                                                                                            | ti42/ep_trigger[31]                                                                                                                                                                                               |
+| 20       | PLLE2_ADV/CLKOUT1          | PLLE2_ADV_X0Y2       | PLLE2_ADV_X0Y2/PLLE2_ADV            | X0Y2         |           2 |              10 |        2.500 | mem_refclk    | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/plle2_i/CLKOUT1                                                                                                                                | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/mem_refclk                                                                                                                                  |
+| 21       | PHASER_OUT_PHY/OCLKDELAYED | PHASER_OUT_PHY_X0Y12 | PHASER_OUT_PHY_X0Y12/PHASER_OUT_PHY | X0Y3         |           2 |               0 |        2.500 | oserdes_clk   | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLKDELAYED | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk_delayed |
+| 22       | PHASER_OUT_PHY/OCLKDELAYED | PHASER_OUT_PHY_X0Y13 | PHASER_OUT_PHY_X0Y13/PHASER_OUT_PHY | X0Y3         |           2 |               0 |        2.500 | oserdes_clk_1 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLKDELAYED | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_0.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk_delayed |
+| 23       | PHASER_OUT_PHY/OCLKDELAYED | PHASER_OUT_PHY_X0Y8  | PHASER_OUT_PHY_X0Y8/PHASER_OUT_PHY  | X0Y2         |           2 |               0 |        2.500 | oserdes_clk_2 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/phaser_out/OCLKDELAYED | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_A.ddr_byte_lane_A/oserdes_clk_delayed |
+| 24       | PHASER_OUT_PHY/OCLKDELAYED | PHASER_OUT_PHY_X0Y9  | PHASER_OUT_PHY_X0Y9/PHASER_OUT_PHY  | X0Y2         |           2 |               0 |        2.500 | oserdes_clk_3 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/phaser_out/OCLKDELAYED | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_memc_ui_top_std/mem_intfc0/ddr_phy_top0/u_ddr_mc_phy_wrapper/u_ddr_mc_phy/ddr_phy_4lanes_1.u_ddr_phy_4lanes/ddr_byte_lane_B.ddr_byte_lane_B/oserdes_clk_delayed |
+| 25       | FDPE/Q                     | None                 | SLICE_X5Y60/A5FF                    | X0Y1         |           1 |               4 |              |               | okHI/core0/core0/a0/d0/lc4da648cb12eeeb24e4d199c1195ed93_reg[4]/Q                                                                                                                                                    | okHI/core0/core0/a0/d0/l380f95c05ffaf9f64e84defb5d30e949                                                                                                                                                          |
+| 26       | FDCE/Q                     | None                 | SLICE_X29Y61/AFF                    | X0Y1         |           1 |               0 |              |               | ti40/ep_trigger_reg[4]/Q                                                                                                                                                                                             | ti40/ep_trigger_BUFG[4]                                                                                                                                                                                           |
+| 27       | FDCE/Q                     | None                 | SLICE_X29Y56/AFF                    | X0Y1         |           1 |               0 |              |               | ti40/ep_trigger_reg[6]/Q                                                                                                                                                                                             | ti40/ep_trigger_BUFG[6]                                                                                                                                                                                           |
+| 28       | FDCE/Q                     | None                 | SLICE_X0Y85/AFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[10]/Q                                                                                                                                                                                            | ti42/ep_trigger[10]                                                                                                                                                                                               |
+| 29       | FDCE/Q                     | None                 | SLICE_X10Y83/BFF                    | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[11]/Q                                                                                                                                                                                            | ti42/ep_trigger[11]                                                                                                                                                                                               |
+| 30       | FDCE/Q                     | None                 | SLICE_X1Y85/BFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[12]/Q                                                                                                                                                                                            | ti42/ep_trigger[12]                                                                                                                                                                                               |
+| 31       | FDCE/Q                     | None                 | SLICE_X13Y87/AFF                    | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[13]/Q                                                                                                                                                                                            | ti42/ep_trigger[13]                                                                                                                                                                                               |
+| 32       | FDCE/Q                     | None                 | SLICE_X1Y85/CFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[14]/Q                                                                                                                                                                                            | ti42/ep_trigger[14]                                                                                                                                                                                               |
+| 33       | FDCE/Q                     | None                 | SLICE_X10Y83/CFF                    | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[15]/Q                                                                                                                                                                                            | ti42/ep_trigger[15]                                                                                                                                                                                               |
+| 34       | FDCE/Q                     | None                 | SLICE_X0Y99/AFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[16]/Q                                                                                                                                                                                            | ti42/ep_trigger[16]                                                                                                                                                                                               |
+| 35       | FDCE/Q                     | None                 | SLICE_X4Y98/AFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[17]/Q                                                                                                                                                                                            | ti42/ep_trigger[17]                                                                                                                                                                                               |
+| 36       | FDCE/Q                     | None                 | SLICE_X0Y99/BFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[18]/Q                                                                                                                                                                                            | ti42/ep_trigger[18]                                                                                                                                                                                               |
+| 37       | FDCE/Q                     | None                 | SLICE_X4Y98/BFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[19]/Q                                                                                                                                                                                            | ti42/ep_trigger[19]                                                                                                                                                                                               |
+| 38       | FDCE/Q                     | None                 | SLICE_X7Y98/BFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[20]/Q                                                                                                                                                                                            | ti42/ep_trigger[20]                                                                                                                                                                                               |
+| 39       | FDCE/Q                     | None                 | SLICE_X4Y100/AFF                    | X0Y2         |           1 |               0 |              |               | ti42/ep_trigger_reg[21]/Q                                                                                                                                                                                            | ti42/ep_trigger[21]                                                                                                                                                                                               |
+| 40       | FDCE/Q                     | None                 | SLICE_X4Y100/BFF                    | X0Y2         |           1 |               0 |              |               | ti42/ep_trigger_reg[22]/Q                                                                                                                                                                                            | ti42/ep_trigger[22]                                                                                                                                                                                               |
+| 41       | FDCE/Q                     | None                 | SLICE_X4Y100/CFF                    | X0Y2         |           1 |               0 |              |               | ti42/ep_trigger_reg[23]/Q                                                                                                                                                                                            | ti42/ep_trigger[23]                                                                                                                                                                                               |
+| 42       | FDCE/Q                     | None                 | SLICE_X9Y92/CFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[8]/Q                                                                                                                                                                                             | ti42/ep_trigger[8]                                                                                                                                                                                                |
+| 43       | FDCE/Q                     | None                 | SLICE_X9Y93/AFF                     | X0Y1         |           1 |               0 |              |               | ti42/ep_trigger_reg[9]/Q                                                                                                                                                                                             | ti42/ep_trigger[9]                                                                                                                                                                                                |
++----------+----------------------------+----------------------+-------------------------------------+--------------+-------------+-----------------+--------------+---------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+* Local Clocks in this context represents only clocks driven by non-global buffers
+** Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+*** Non-Clock Loads column represents cell count of non-clock pin loads
+
+
+5. Clock Regions: Key Resource Utilization
+------------------------------------------
+
++-------------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+|                   | Global Clock |     BUFRs    |    BUFMRs    |    BUFIOs    |     MMCM     |      PLL     |      GT      |      PCI     |    ILOGIC    |    OLOGIC    |      FF      |     LUTM     |    RAMB18    |    RAMB36    |    DSP48E2   |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+| X0Y0              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  370 |  2600 |  113 |   600 |    8 |    20 |    0 |    10 |    0 |    20 |
+| X1Y0              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     4 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1500 |    0 |   550 |   12 |    40 |    0 |    20 |    0 |    40 |
+| X0Y1              |    7 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |   36 |    50 |   67 |    50 | 2601 |  2000 |  733 |   600 |    1 |    20 |    8 |    10 |    0 |    20 |
+| X1Y1              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  729 |  1900 |  254 |   650 |    4 |    60 |   14 |    30 |    0 |    40 |
+| X0Y2              |    6 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    1 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    4 |    50 | 4659 |  2000 | 1305 |   600 |    0 |    20 |    9 |    10 |    0 |    20 |
+| X1Y2              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 1953 |  1900 |  675 |   650 |    0 |    60 |   29 |    30 |    0 |    40 |
+| X0Y3              |    3 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    4 |    50 | 1364 |  2600 |  373 |   600 |    0 |    20 |    1 |    10 |    0 |    20 |
+| X1Y3              |    2 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     4 |    0 |     1 |    0 |     0 |    0 |     0 |   78 |  1350 |   24 |   500 |    0 |    30 |    2 |    15 |    0 |    40 |
++-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
+* Global Clock column represents track count; while other columns represents cell counts
+
+
+6. Clock Regions : Global Clock Summary
+---------------------------------------
+
+All Modules
++----+----+----+
+|    | X0 | X1 |
++----+----+----+
+| Y3 |  0 |  0 |
+| Y2 |  0 |  0 |
+| Y1 |  0 |  0 |
+| Y0 |  0 |  0 |
++----+----+----+
+
+
+7. Device Cell Placement Summary for Global Clock g0
+----------------------------------------------------
+
++-----------+-----------------+-------------------+-----------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock     | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                       |
++-----------+-----------------+-------------------+-----------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------+
+| g0        | BUFG/O          | n/a               | clk_pll_i |      10.000 | {0.000 5.000} |        5846 |        0 |              1 |        0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
++-----------+-----------------+-------------------+-----------+-------------+---------------+-------------+----------+----------------+----------+---------------------------------------------------------------------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+-------+-------+-----------------------+
+|    | X0    | X1    | HORIZONTAL PROG DELAY |
++----+-------+-------+-----------------------+
+| Y3 |  1361 |    80 |                     0 |
+| Y2 |  3247 |  1137 |                     0 |
+| Y1 |     8 |    14 |                     0 |
+| Y0 |     0 |     0 |                     - |
++----+-------+-------+-----------------------+
+
+
+8. Device Cell Placement Summary for Global Clock g1
+----------------------------------------------------
+
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock    | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                     |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------+
+| g1        | BUFGCTRL/O      | n/a               | Multiple |      11.905 | {0.000 5.952} |        3229 |        0 |              0 |        0 | variable_freq_clk_generator_inst/clkout |
++-----------+-----------------+-------------------+----------+-------------+---------------+-------------+----------+----------------+----------+-----------------------------------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+-------+------+-----------------------+
+|    | X0    | X1   | HORIZONTAL PROG DELAY |
++----+-------+------+-----------------------+
+| Y3 |     0 |    0 |                     - |
+| Y2 |   652 |  715 |                     0 |
+| Y1 |  1229 |  597 |                     0 |
+| Y0 |    13 |   23 |                     0 |
++----+-------+------+-----------------------+
+
+
+9. Device Cell Placement Summary for Global Clock g2
+----------------------------------------------------
+
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+----------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock      | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net      |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+----------+
+| g2        | BUFG/O          | n/a               | mmcm0_clk0 |       9.920 | {1.488 6.448} |        2424 |        0 |              1 |        0 | okHI/CLK |
++-----------+-----------------+-------------------+------------+-------------+---------------+-------------+----------+----------------+----------+----------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+------+------+-----------------------+
+|    | X0   | X1   | HORIZONTAL PROG DELAY |
++----+------+------+-----------------------+
+| Y3 |   22 |    2 |                     0 |
+| Y2 |  698 |  161 |                     0 |
+| Y1 |  969 |  164 |                     0 |
+| Y0 |  386 |   23 |                     0 |
++----+------+------+-----------------------+
+
+
+10. Device Cell Placement Summary for Global Clock g3
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-----+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-----+
+| g3        | BUFG/O          | n/a               |       |             |               |         224 |        0 |              0 |        0 | clk |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-----+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+------+----+-----------------------+
+|    | X0   | X1 | HORIZONTAL PROG DELAY |
++----+------+----+-----------------------+
+| Y3 |    0 |  0 |                     - |
+| Y2 |    0 |  0 |                     - |
+| Y1 |  224 |  0 |                     0 |
+| Y0 |    0 |  0 |                     - |
++----+------+----+-----------------------+
+
+
+11. Device Cell Placement Summary for Global Clock g4
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+---------+-------------+---------------+-------------+----------+----------------+----------+--------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock   | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net          |
++-----------+-----------------+-------------------+---------+-------------+---------------+-------------+----------+----------------+----------+--------------+
+| g4        | BUFG/O          | n/a               | sys_clk |       5.000 | {0.000 2.500} |          63 |        0 |              2 |        0 | sys_clk_BUFG |
++-----------+-----------------+-------------------+---------+-------------+---------------+-------------+----------+----------------+----------+--------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+-----+----+-----------------------+
+|    | X0  | X1 | HORIZONTAL PROG DELAY |
++----+-----+----+-----------------------+
+| Y3 |  16 |  0 |                     0 |
+| Y2 |  48 |  0 |                     0 |
+| Y1 |   0 |  0 |                     - |
+| Y0 |   1 |  0 |                     0 |
++----+-----+----+-----------------------+
+
+
+12. Device Cell Placement Summary for Global Clock g5
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net   |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------+
+| g5        | BUFG/O          | n/a               |       |             |               |          32 |        0 |              0 |        0 | clk_0 |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+-----+----+-----------------------+
+|    | X0  | X1 | HORIZONTAL PROG DELAY |
++----+-----+----+-----------------------+
+| Y3 |   0 |  0 |                     - |
+| Y2 |   0 |  0 |                     - |
+| Y1 |  32 |  0 |                     0 |
+| Y0 |   0 |  0 |                     - |
++----+-----+----+-----------------------+
+
+
+13. Device Cell Placement Summary for Global Clock g6
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                     |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------------------------+
+| g6        | BUFG/O          | n/a               |       |             |               |          32 |        0 |              0 |        0 | ti40/ep_trigger_BUFG[9] |
++-----------+-----------------+-------------------+-------+-------------+---------------+-------------+----------+----------------+----------+-------------------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+-----+----+-----------------------+
+|    | X0  | X1 | HORIZONTAL PROG DELAY |
++----+-----+----+-----------------------+
+| Y3 |   0 |  0 |                     - |
+| Y2 |  27 |  0 |                     0 |
+| Y1 |   5 |  0 |                     0 |
+| Y0 |   0 |  0 |                     - |
++----+-----+----+-----------------------+
+
+
+14. Device Cell Placement Summary for Global Clock g7
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+--------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------------------------------------------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock        | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                                                                            |
++-----------+-----------------+-------------------+--------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------------------------------------------------------+
+| g7        | BUFH/O          | X0Y2              | pll_clk3_out |      10.000 | {0.000 5.000} |           0 |        0 |              1 |        0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/pll_clk3 |
++-----------+-----------------+-------------------+--------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------------------------------------------------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+--------+----+-----------------------+
+|    | X0     | X1 | HORIZONTAL PROG DELAY |
++----+--------+----+-----------------------+
+| Y3 |      0 |  0 |                     - |
+| Y2 |  (D) 1 |  0 |                     0 |
+| Y1 |      0 |  0 |                     - |
+| Y0 |      0 |  0 |                     - |
++----+--------+----+-----------------------+
+
+
+15. Device Cell Placement Summary for Global Clock g8
+-----------------------------------------------------
+
++-----------+-----------------+-------------------+-------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------+
+| Global Id | Driver Type/Pin | Driver Region (D) | Clock       | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                   |
++-----------+-----------------+-------------------+-------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------+
+| g8        | BUFG/O          | n/a               | mmcm0_clkfb |       9.920 | {0.000 4.960} |           0 |        0 |              1 |        0 | okHI/mmcm0_clkfb_bufg |
++-----------+-----------------+-------------------+-------------+-------------+---------------+-------------+----------+----------------+----------+-----------------------+
+* Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
+** IO Loads column represents load cell count of IO types
+*** Clocking Loads column represents load cell count that are clock resources (global clock buffer, MMCM, PLL, etc)
+**** GT Loads column represents load cell count of GT types
+
+
++----+----+----+-----------------------+
+|    | X0 | X1 | HORIZONTAL PROG DELAY |
++----+----+----+-----------------------+
+| Y3 |  0 |  0 |                     - |
+| Y2 |  0 |  0 |                     - |
+| Y1 |  1 |  0 |                     0 |
+| Y0 |  0 |  0 |                     - |
++----+----+----+-----------------------+
+
+
+16. Clock Region Cell Placement per Global Clock: Region X0Y0
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                     |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+| g1        | n/a   | BUFGCTRL/O      | None       |          13 |               0 |   0 |           0 |    7 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout |
+| g2        | n/a   | BUFG/O          | None       |         386 |               0 | 370 |           0 |    8 |   0 |  0 |    1 |   0 |       0 | okHI/CLK                                |
+| g4        | n/a   | BUFG/O          | None       |           1 |               0 |   0 |           0 |    0 |   0 |  0 |    1 |   0 |       0 | sys_clk_BUFG                            |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+17. Clock Region Cell Placement per Global Clock: Region X1Y0
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                     |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+| g1        | n/a   | BUFGCTRL/O      | None       |          23 |               0 |  0 |           0 |   12 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout |
+| g2        | n/a   | BUFG/O          | None       |          23 |               0 |  0 |           0 |   12 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+-----------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+18. Clock Region Cell Placement per Global Clock: Region X0Y1
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                       |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |           8 |               0 |    0 |           0 |    8 |   0 |  0 |    0 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
+| g1        | n/a   | BUFGCTRL/O      | None       |        1229 |               0 | 1226 |           0 |    1 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout                                   |
+| g2        | n/a   | BUFG/O          | None       |         969 |               0 |  958 |           0 |    9 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                  |
+| g3        | n/a   | BUFG/O          | None       |         224 |               0 |  224 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | clk                                                                       |
+| g5        | n/a   | BUFG/O          | None       |          32 |               0 |   32 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | clk_0                                                                     |
+| g6        | n/a   | BUFG/O          | None       |           5 |               0 |    5 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | ti40/ep_trigger_BUFG[9]                                                   |
+| g8        | n/a   | BUFG/O          | None       |           1 |               0 |    0 |           0 |    0 |   0 |  0 |    1 |   0 |       0 | okHI/mmcm0_clkfb_bufg                                                     |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+19. Clock Region Cell Placement per Global Clock: Region X1Y1
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                       |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          14 |               0 |   0 |           0 |   14 |   0 |  0 |    0 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
+| g1        | n/a   | BUFGCTRL/O      | None       |         597 |               0 | 588 |           0 |    4 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout                                   |
+| g2        | n/a   | BUFG/O          | None       |         164 |               0 | 141 |           0 |   18 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                  |
++-----------+-------+-----------------+------------+-------------+-----------------+-----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+20. Clock Region Cell Placement per Global Clock: Region X0Y2
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+--------------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                            |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+--------------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        3247 |               0 | 3196 |          12 |    8 |   0 |  0 |    1 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK      |
+| g1        | n/a   | BUFGCTRL/O      | None       |         652 |               0 |  649 |           2 |    0 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout                                        |
+| g2        | n/a   | BUFG/O          | None       |         698 |               0 |  692 |           0 |    6 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                       |
+| g4        | n/a   | BUFG/O          | None       |          48 |               0 |   45 |           0 |    0 |   0 |  0 |    0 |   1 |       0 | sys_clk_BUFG                                                                   |
+| g6        | n/a   | BUFG/O          | None       |          27 |               0 |   27 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | ti40/ep_trigger_BUFG[9]                                                        |
+| g7        | n/a   | BUFH/O          | None       |           1 |               0 |    0 |           0 |    0 |   0 |  0 |    1 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/pll_clk3 |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+--------------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+21. Clock Region Cell Placement per Global Clock: Region X1Y2
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                       |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        1137 |               0 | 1107 |           1 |   29 |   0 |  0 |    0 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
+| g1        | n/a   | BUFGCTRL/O      | None       |         715 |               0 |  715 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | variable_freq_clk_generator_inst/clkout                                   |
+| g2        | n/a   | BUFG/O          | None       |         161 |               0 |  131 |           1 |   29 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                  |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+22. Clock Region Cell Placement per Global Clock: Region X0Y3
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                       |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        1361 |               0 | 1327 |           8 |    1 |   0 |  0 |    0 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
+| g2        | n/a   | BUFG/O          | None       |          22 |               0 |   22 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                  |
+| g4        | n/a   | BUFG/O          | None       |          16 |               0 |   15 |           0 |    0 |   0 |  0 |    0 |   0 |       0 | sys_clk_BUFG                                                              |
++-----------+-------+-----------------+------------+-------------+-----------------+------+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+23. Clock Region Cell Placement per Global Clock: Region X1Y3
+-------------------------------------------------------------
+
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF | Memory LUTs | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                                       |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |          80 |               0 | 78 |           0 |    2 |   0 |  0 |    0 |   0 |       0 | SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK |
+| g2        | n/a   | BUFG/O          | None       |           2 |               0 |  0 |           0 |    2 |   0 |  0 |    0 |   0 |       0 | okHI/CLK                                                                  |
++-----------+-------+-----------------+------------+-------------+-----------------+----+-------------+------+-----+----+------+-----+---------+---------------------------------------------------------------------------+
+* Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
+** Non-Clock Loads column represents cell count of non-clock pin loads
+*** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
+
+
+
+# Location of BUFG Primitives 
+set_property LOC BUFGCTRL_X0Y2 [get_cells variable_freq_clk_generator_inst/BUFGMUX_CTRL_inst]
+set_property LOC BUFGCTRL_X0Y5 [get_cells ti40/ep_trigger[9]_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y1 [get_cells sys_clk_BUFG_inst]
+set_property LOC BUFGCTRL_X0Y6 [get_cells okHI/mmcm0fb_bufg]
+set_property LOC BUFGCTRL_X0Y0 [get_cells okHI/mmcm0_bufg]
+set_property LOC BUFGCTRL_X0Y4 [get_cells HPF_state_reg[0]_i_2__0]
+set_property LOC BUFGCTRL_X0Y3 [get_cells HPF_state_reg[0]_i_2]
+set_property LOC BUFGCTRL_X0Y16 [get_cells SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/u_bufg_clkdiv0]
+
+# Location of BUFH Primitives 
+set_property LOC BUFHCE_X0Y24 [get_cells SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/u_bufh_pll_clk3]
+
+# Location of IO Primitives which is load of clock spine
+
+# Location of clock ports
+set_property LOC IOB_X0Y76 [get_ports okUH[0]]
+set_property LOC IOB_X0Y25 [get_ports sys_clk_n]
+set_property LOC IOB_X0Y26 [get_ports sys_clk_p]
+
+# Clock net "variable_freq_clk_generator_inst/clkout" driven by instance "variable_freq_clk_generator_inst/BUFGMUX_CTRL_inst" located at site "BUFGCTRL_X0Y2"
+#startgroup
+create_pblock {CLKAG_variable_freq_clk_generator_inst/clkout}
+add_cells_to_pblock [get_pblocks  {CLKAG_variable_freq_clk_generator_inst/clkout}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="variable_freq_clk_generator_inst/clkout"}]]]
+resize_pblock [get_pblocks {CLKAG_variable_freq_clk_generator_inst/clkout}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2}
+#endgroup
+
+# Clock net "ti40/ep_trigger_BUFG[9]" driven by instance "ti40/ep_trigger[9]_BUFG_inst" located at site "BUFGCTRL_X0Y5"
+#startgroup
+create_pblock {CLKAG_ti40/ep_trigger_BUFG[9]}
+add_cells_to_pblock [get_pblocks  {CLKAG_ti40/ep_trigger_BUFG[9]}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="ti40/ep_trigger_BUFG[9]"}]]]
+resize_pblock [get_pblocks {CLKAG_ti40/ep_trigger_BUFG[9]}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2}
+#endgroup
+
+# Clock net "sys_clk_BUFG" driven by instance "sys_clk_BUFG_inst" located at site "BUFGCTRL_X0Y1"
+#startgroup
+create_pblock {CLKAG_sys_clk_BUFG}
+add_cells_to_pblock [get_pblocks  {CLKAG_sys_clk_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=variable_freq_clk_generator_inst/MMCME2_ADV_inst && NAME!=SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/plle2_i} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="sys_clk_BUFG"}]]]
+resize_pblock [get_pblocks {CLKAG_sys_clk_BUFG}] -add {CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3}
+#endgroup
+
+# Clock net "okHI/CLK" driven by instance "okHI/mmcm0_bufg" located at site "BUFGCTRL_X0Y0"
+#startgroup
+create_pblock {CLKAG_okHI/CLK}
+add_cells_to_pblock [get_pblocks  {CLKAG_okHI/CLK}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=variable_freq_clk_generator_inst/MMCME2_ADV_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="okHI/CLK"}]]]
+resize_pblock [get_pblocks {CLKAG_okHI/CLK}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+#endgroup
+
+# Clock net "clk_0" driven by instance "HPF_state_reg[0]_i_2__0" located at site "BUFGCTRL_X0Y4"
+#startgroup
+create_pblock {CLKAG_clk_0}
+add_cells_to_pblock [get_pblocks  {CLKAG_clk_0}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="clk_0"}]]]
+resize_pblock [get_pblocks {CLKAG_clk_0}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+#endgroup
+
+# Clock net "clk" driven by instance "HPF_state_reg[0]_i_2" located at site "BUFGCTRL_X0Y3"
+#startgroup
+create_pblock {CLKAG_clk}
+add_cells_to_pblock [get_pblocks  {CLKAG_clk}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="clk"}]]]
+resize_pblock [get_pblocks {CLKAG_clk}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+#endgroup
+
+# Clock net "SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK" driven by instance "SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/u_bufg_clkdiv0" located at site "BUFGCTRL_X0Y16"
+#startgroup
+create_pblock {CLKAG_SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK}
+add_cells_to_pblock [get_pblocks  {CLKAG_SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/gen_mmcm.mmcm_i} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK"}]]]
+resize_pblock [get_pblocks {CLKAG_SDRAM_FIFO_inst/u_ddr3_256_32/u_ddr3_256_32_mig/u_ddr3_infrastructure/CLK}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X0Y2:CLOCKREGION_X0Y2 CLOCKREGION_X0Y3:CLOCKREGION_X0Y3 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1 CLOCKREGION_X1Y2:CLOCKREGION_X1Y2 CLOCKREGION_X1Y3:CLOCKREGION_X1Y3}
+#endgroup

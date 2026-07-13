@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Rhythm_USB3_7310_API_Release_230822\build\CMakeFiles\f43ef191cec9987ee8bb6ac76aa9841b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1C95219F-A56D-3C70-AD23-C4061FC8278B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
