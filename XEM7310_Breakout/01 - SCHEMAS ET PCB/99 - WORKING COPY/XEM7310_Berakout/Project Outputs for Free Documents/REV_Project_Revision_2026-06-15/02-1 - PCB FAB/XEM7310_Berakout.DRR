@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: XEM7310_Berakout.PcbDoc   2026-06-15  9:31:15 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top to Bottom
+ASCII RoundHoles File : XEM7310_Berakout-RoundHoles.TXT
+ASCII SlotHoles File : XEM7310_Berakout-SlotHoles.TXT
+ASCII RectHoles File : XEM7310_Berakout-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.203mm)                                            Round             190       PTH        38.49inch (977.54mm)
+T2      12mil (0.305mm)                                           Round             154       PTH        43.30inch (1099.71mm)
+T3      16mil (0.399mm)                                           Round             96        PTH        6.39inch (162.26mm)
+T4      16mil (0.406mm)                                           Round             38        PTH        28.94inch (735.06mm)
+T5      20mil (0.5mm)                                             Slot              32        PTH        17.22inch (437.41mm)
+T6      39mil (1.001mm)                                           Rectangle         3         PTH        0.97inch (24.67mm)
+T7      40mil (1.021mm)                                           Round             5         PTH        0.87inch (22.07mm)
+T8      41mil (1.039mm)                                           Round             160       PTH        23.83inch (605.35mm)
+T9      98mil (2.499mm)                                           Round             8         PTH        25.07inch (636.81mm)
+T10     26mil (0.65mm)                                            Round             8         NPTH       4.90inch (124.46mm)
+T11     26mil (0.65mm)                                            Slot              8         NPTH       9.81inch (249.22mm)
+T12     40mil (1.016mm)                                           Round             4         NPTH       4.29inch (108.95mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              706
+
+Total Processing Time (hh:mm:ss) : 00:00:00

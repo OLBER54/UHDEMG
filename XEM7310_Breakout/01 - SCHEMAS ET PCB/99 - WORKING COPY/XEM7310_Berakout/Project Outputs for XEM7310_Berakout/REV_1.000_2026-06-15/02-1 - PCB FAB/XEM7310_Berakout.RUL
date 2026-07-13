@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\olivi\OneDrive - Université Laval\Documents\Altium\XEM7310_Breakout\01 - SCHEMAS ET PCB\99 - WORKING COPY\XEM7310_Berakout\XEM7310_Berakout.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=4.00
+RuleKind=MinimumAnnularRing|RuleName=USB_TH|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Diff_Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=5V0_Width|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=General|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=GND_Width|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=3V3_Width|Scope=Board|Minimum=10.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00

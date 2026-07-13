@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\olivi\OneDrive - Université Laval\Documents\Altium\XEM7310_Breakout\01 - SCHEMAS ET PCB\99 - WORKING COPY\XEM7310_Berakout\XEM7310_Berakout.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=xem7310_berakout-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=xem7310_berakout-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=xem7310_berakout-rectholes.txt|DrillLayers=gtl,gp1,gp2,gbl

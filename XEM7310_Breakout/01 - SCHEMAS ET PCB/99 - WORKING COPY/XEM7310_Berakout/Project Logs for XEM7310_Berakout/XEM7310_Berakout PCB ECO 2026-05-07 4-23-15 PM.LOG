@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=GND Pin=R1_A-1
+Removed Pin From Net: NetName=GND Pin=R1_B-1
+Removed Pin From Net: NetName=GND Pin=R1_C-1
+Removed Pin From Net: NetName=GND Pin=R1_D-1
+Removed Pin From Net: NetName=GND Pin=R1_E-1
+Removed Pin From Net: NetName=GND Pin=R1_F-1
+Removed Pin From Net: NetName=GND Pin=R1_G-1
+Removed Pin From Net: NetName=GND Pin=R1_H-1
+Removed Member From Class: ClassName=A Member=R1_A
+Removed Member From Class: ClassName=B Member=R1_B
+Removed Member From Class: ClassName=C Member=R1_C
+Removed Member From Class: ClassName=D Member=R1_D
+Removed Member From Class: ClassName=E Member=R1_E
+Removed Member From Class: ClassName=F Member=R1_F
+Removed Member From Class: ClassName=G Member=R1_G
+Removed Member From Class: ClassName=H Member=R1_H
+Added Pin To Net: NetName=GND Pin=J1_A-1
+Added Pin To Net: NetName=GND Pin=J1_A-2
+Added Pin To Net: NetName=GND Pin=J1_A-3
+Added Pin To Net: NetName=GND Pin=J1_A-4
+Added Pin To Net: NetName=GND Pin=J1_B-1
+Added Pin To Net: NetName=GND Pin=J1_B-2
+Added Pin To Net: NetName=GND Pin=J1_B-3
+Added Pin To Net: NetName=GND Pin=J1_B-4
+Added Pin To Net: NetName=GND Pin=J1_C-1
+Added Pin To Net: NetName=GND Pin=J1_C-2
+Added Pin To Net: NetName=GND Pin=J1_C-3
+Added Pin To Net: NetName=GND Pin=J1_C-4
+Added Pin To Net: NetName=GND Pin=J1_D-1
+Added Pin To Net: NetName=GND Pin=J1_D-2
+Added Pin To Net: NetName=GND Pin=J1_D-3
+Added Pin To Net: NetName=GND Pin=J1_D-4
+Added Pin To Net: NetName=GND Pin=J1_E-1
+Added Pin To Net: NetName=GND Pin=J1_E-2
+Added Pin To Net: NetName=GND Pin=J1_E-3
+Added Pin To Net: NetName=GND Pin=J1_E-4
+Added Pin To Net: NetName=GND Pin=J1_F-1
+Added Pin To Net: NetName=GND Pin=J1_F-2
+Added Pin To Net: NetName=GND Pin=J1_F-3
+Added Pin To Net: NetName=GND Pin=J1_F-4
+Added Pin To Net: NetName=GND Pin=J1_G-1
+Added Pin To Net: NetName=GND Pin=J1_G-2
+Added Pin To Net: NetName=GND Pin=J1_G-3
+Added Pin To Net: NetName=GND Pin=J1_G-4
+Added Pin To Net: NetName=GND Pin=J1_H-1
+Added Pin To Net: NetName=GND Pin=J1_H-2
+Added Pin To Net: NetName=GND Pin=J1_H-3
+Added Pin To Net: NetName=GND Pin=J1_H-4
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7

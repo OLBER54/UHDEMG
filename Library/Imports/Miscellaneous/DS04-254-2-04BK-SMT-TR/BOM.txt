@@ -1,0 +1,3 @@
+3DX_Same_Sky_Supplier: Same Sky
+3DX_Same_Sky_Description: 4 Position, Surface Mount, 2.54 mm Pitch, Flat Slide Actuator, Flat Bottom, SMT Pin, DIP Switch
+3DX_Same_Sky_Model Number: DS04-254-2-04BK-SMT-TR
