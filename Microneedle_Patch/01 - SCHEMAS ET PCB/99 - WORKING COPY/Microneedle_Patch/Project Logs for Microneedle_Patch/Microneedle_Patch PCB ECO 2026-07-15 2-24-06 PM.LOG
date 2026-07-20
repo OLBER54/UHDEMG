@@ -1,0 +1,92 @@
+Added Component: Designator=E1(PCBComponent_1)
+Added Component: Designator=E2(PCBComponent_1)
+Added Component: Designator=E3(PCBComponent_1)
+Added Component: Designator=E4(PCBComponent_1)
+Added Component: Designator=E5(PCBComponent_1)
+Added Component: Designator=E6(PCBComponent_1)
+Added Component: Designator=E7(PCBComponent_1)
+Added Component: Designator=E8(PCBComponent_1)
+Added Component: Designator=E9(PCBComponent_1)
+Added Component: Designator=E10(PCBComponent_1)
+Added Component: Designator=E11(PCBComponent_1)
+Added Component: Designator=E12(PCBComponent_1)
+Added Component: Designator=E13(PCBComponent_1)
+Added Component: Designator=E14(PCBComponent_1)
+Added Component: Designator=E15(PCBComponent_1)
+Added Component: Designator=E16(PCBComponent_1)
+Added Component: Designator=E17(PCBComponent_1)
+Added Component: Designator=E18(PCBComponent_1)
+Added Component: Designator=E19(PCBComponent_1)
+Added Component: Designator=E20(PCBComponent_1)
+Added Component: Designator=E21(PCBComponent_1)
+Added Component: Designator=E22(PCBComponent_1)
+Added Component: Designator=E23(PCBComponent_1)
+Added Component: Designator=E24(PCBComponent_1)
+Added Component: Designator=E25(PCBComponent_1)
+Added Component: Designator=E26(PCBComponent_1)
+Added Component: Designator=E27(PCBComponent_1)
+Added Component: Designator=E28(PCBComponent_1)
+Added Component: Designator=E29(PCBComponent_1)
+Added Component: Designator=E30(PCBComponent_1)
+Added Component: Designator=E31(PCBComponent_1)
+Added Component: Designator=E32(PCBComponent_1)
+Added Component: Designator=J1(CONN_FPC_2X18_0MM5)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-9
+Added Pin To Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=GND Pin=J1-28
+Added Member To Class: ClassName=Main Member=Component E1 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E2 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E3 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E4 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E5 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E6 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E7 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E8 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E9 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E10 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E11 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E12 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E13 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E14 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E15 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E16 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E17 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E18 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E19 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E20 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E21 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E22 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E23 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E24 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E25 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E26 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E27 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E28 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E29 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E30 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E31 2.5 mm
+Added Member To Class: ClassName=Main Member=Component E32 2.5 mm
+Added Member To Class: ClassName=Main Member=Component J1 XF2M-3615-1A

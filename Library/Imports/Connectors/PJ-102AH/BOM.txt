@@ -1,3 +1,0 @@
-3DX_Same_Sky_Supplier: Same Sky
-3DX_Same_Sky_Description: 2.0 x 6.5 mm, 5.0 A, Horizontal, Through Hole, Tapered Pins, Dc Power Jack Connector
-3DX_Same_Sky_Model Number: PJ-102AH
