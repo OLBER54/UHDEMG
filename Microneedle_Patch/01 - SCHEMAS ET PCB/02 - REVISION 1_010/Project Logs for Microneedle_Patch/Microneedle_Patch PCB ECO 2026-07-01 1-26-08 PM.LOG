@@ -1,0 +1,60 @@
+Added Component: Designator=J?(CONN_FPC_2X18_0MM5)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Input1 Pin=J?-1
+Added Pin To Net: NetName=Input2 Pin=J?-2
+Added Pin To Net: NetName=Input3 Pin=J?-3
+Added Pin To Net: NetName=Input4 Pin=J?-4
+Added Pin To Net: NetName=Input5 Pin=J?-5
+Added Pin To Net: NetName=Input6 Pin=J?-6
+Added Pin To Net: NetName=Input7 Pin=J?-7
+Added Pin To Net: NetName=Input8 Pin=J?-8
+Added Pin To Net: NetName=GND Pin=J?-9
+Added Pin To Net: NetName=Input9 Pin=J?-10
+Added Pin To Net: NetName=Input10 Pin=J?-11
+Added Pin To Net: NetName=Input11 Pin=J?-12
+Added Pin To Net: NetName=Input12 Pin=J?-13
+Added Pin To Net: NetName=Input13 Pin=J?-14
+Added Pin To Net: NetName=Input14 Pin=J?-15
+Added Pin To Net: NetName=Input15 Pin=J?-16
+Added Pin To Net: NetName=Input16 Pin=J?-17
+Added Pin To Net: NetName=GND Pin=J?-18
+Added Pin To Net: NetName=GND Pin=J?-19
+Added Pin To Net: NetName=Input17 Pin=J?-20
+Added Pin To Net: NetName=Input18 Pin=J?-21
+Added Pin To Net: NetName=Input19 Pin=J?-22
+Added Pin To Net: NetName=Input20 Pin=J?-23
+Added Pin To Net: NetName=Input21 Pin=J?-24
+Added Pin To Net: NetName=Input22 Pin=J?-25
+Added Pin To Net: NetName=Input23 Pin=J?-26
+Added Pin To Net: NetName=Input24 Pin=J?-27
+Added Pin To Net: NetName=GND Pin=J?-28
+Added Pin To Net: NetName=Input25 Pin=J?-29
+Added Pin To Net: NetName=Input26 Pin=J?-30
+Added Pin To Net: NetName=Input27 Pin=J?-31
+Added Pin To Net: NetName=Input28 Pin=J?-32
+Added Pin To Net: NetName=Input29 Pin=J?-33
+Added Pin To Net: NetName=Input30 Pin=J?-34
+Added Pin To Net: NetName=Input31 Pin=J?-35
+Added Pin To Net: NetName=Input32 Pin=J?-36
+Added Member To Class: ClassName=Main Member=Component J? XF2M-3615-1A
