@@ -204,7 +204,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=XEM7310_Berakout.PcbDoc
+DocumentPath=XEM7310_Breakout.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
