@@ -1,0 +1,4 @@
+Added Component: Designator=UPTH1(Mounting_Hole_UPTH_M2)
+Added Component: Designator=UPTH2(Mounting_Hole_UPTH_M2)
+Added Member To Class: ClassName=RHD2164_USBC Member=Component UPTH1 M2
+Added Member To Class: ClassName=RHD2164_USBC Member=Component UPTH2 M2
