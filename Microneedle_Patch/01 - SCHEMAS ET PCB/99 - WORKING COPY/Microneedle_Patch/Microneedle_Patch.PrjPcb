@@ -68,24 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FAPMBNMV
 
 [Document2]
-DocumentPath=Microneedle_Patch.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=GNYTCPOA
-
-[Document3]
-DocumentPath=Job1.OutJob
+DocumentPath=Microneedle_Patch.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,8 +84,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document3]
+DocumentPath=Microneedle_Patch_V2.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TDNYJMDZ
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Microneedle_Patch\Design Rule Check - Microneedle_Patch.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for Microneedle_Patch\Design Rule Check - Microneedle_Patch_V2.html
 DItemRevisionGUID=
 
 [Parameter1]
@@ -1101,10 +1105,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Microneedle_Lib.IntLib
+ComponentDesignItemID0=Fingers
+ComponentSymbolReference0=Fingers
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1118,6 +1128,63 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Assembly Note
+ParameterUpdate0=1
+ParameterName1=Assembly Type
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=CreatedBy/Date
+ParameterUpdate4=1
+ParameterName5=Current Rating
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=GRAMS Lib Spec
+ParameterUpdate7=1
+ParameterName8=HelpURL
+ParameterUpdate8=1
+ParameterName9=Library Reference
+ParameterUpdate9=1
+ParameterName10=Magnetic Material
+ParameterUpdate10=1
+ParameterName11=Manufacturer #1
+ParameterUpdate11=1
+ParameterName12=Manufacturer #2
+ParameterUpdate12=1
+ParameterName13=Note
+ParameterUpdate13=1
+ParameterName14=Package
+ParameterUpdate14=1
+ParameterName15=Part Number #1
+ParameterUpdate15=1
+ParameterName16=Part Number #2
+ParameterUpdate16=1
+ParameterName17=Polarized
+ParameterUpdate17=1
+ParameterName18=Power Max
+ParameterUpdate18=1
+ParameterName19=Supplier 1
+ParameterUpdate19=1
+ParameterName20=Supplier Part Number 1
+ParameterUpdate20=1
+ParameterName21=Temperature
+ParameterUpdate21=1
+ParameterName22=Tolerance
+ParameterUpdate22=1
+ParameterName23=Value
+ParameterUpdate23=1
+ParameterName24=VerifiedBy
+ParameterUpdate24=1
+ParameterName25=Voltage Rating
+ParameterUpdate25=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=Fingers
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

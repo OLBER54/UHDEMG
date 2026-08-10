@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\RHD2164_USBC_V2\01 - SCHEMAS ET PCB\99 - WORKING COPY\RHD2164_USBC_V2\RHD2164_USBC.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=rhd2164_usbc-roundholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=rhd2164_usbc-slotholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl

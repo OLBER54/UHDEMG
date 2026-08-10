@@ -1,0 +1,14 @@
+Output: PCB NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Breakout_Boards_Panel.PcbDoc]
+   Generated File[Breakout_Boards_Panel-RoundHoles.TXT]
+   Generated File[Breakout_Boards_Panel-SlotHoles.TXT]
+   Generated File[Breakout_Boards_Panel-RectHoles.TXT]
+   Generated File[Breakout_Boards_Panel.LDP]
+   Generated File[Breakout_Boards_Panel.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 3:07:55 PM On 2026-08-10
