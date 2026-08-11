@@ -1,0 +1,19 @@
+RHD2164 USBC:
+- 1x USBC: 217183-0001
+- 1x INTAN: RHD2164
+- 2x ZIF: 3-2492104-6
+- 3x 100R Resistor 0402
+- 1x 0R00 Resistor 0402
+- 1x 100nF Capacitor 0402
+- 1x 10nF Capacitor 0402
+
+Electrode Breakout:
+- 2x ZIF: 3-2492104-6
+- 4x Header 2x8
+
+FPGA Breakout:
+- 8x USBC: 217183-0001
+- 8x LVDS Driver: SN65LVDT41PW
+
+- 4x Header 2x20
+- 2x FPGA Connector: BTE-040-01-F-D-AD

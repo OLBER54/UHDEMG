@@ -1,9 +1,9 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\RHD2164_USBC_V2\01 - SCHEMAS ET PCB\99 - WORKING COPY\RHD2164_USBC_V2\RHD2164_USBC.PcbDoc
-Date     : 2026-08-10
-Time     : 2:02:30 PM
+Date     : 2026-08-11
+Time     : 8:45:59 AM
 
-Processing Rule : Clearance Constraint (Gap=0.254mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -15,52 +15,52 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.152mm) (Max=0.508mm) (Preferred=0.203mm) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=6mil) (Max=20mil) (Preferred=8mil) (InNetClass('Power'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.127mm) (Max=0.381mm) (Preferred=0.127mm) (All)
+Processing Rule : Width Constraint (Min=5mil) (Max=15mil) (Preferred=5mil) (All)
 Rule Violations :0
 
-Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=0.076mm) (All)
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
 Rule Violations :0
 
 Processing Rule : Acute Angle Constraint (Minimum=45.000) (All)
 Rule Violations :0
 
-Processing Rule : Hole Size Constraint (Min=0.152mm) (Max=25.4mm) (All)
+Processing Rule : Hole Size Constraint (Min=6mil) (Max=1000mil) (All)
 Rule Violations :0
 
-Processing Rule : Hole To Hole Clearance (Gap=0.203mm) (All),(All)
+Processing Rule : Hole To Hole Clearance (Gap=8mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.025mm) (HasFootprint('RHD2164_BGA')),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (HasFootprint('RHD2164_BGA')),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=0.102mm) (All),(All)
+Processing Rule : Minimum Solder Mask Sliver (Gap=4mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Silk To Solder Mask (Clearance=0.051mm) (IsPad),(All)
+Processing Rule : Silk To Solder Mask (Clearance=2mil) (IsPad),(All)
 Rule Violations :0
 
-Processing Rule : Silk to Silk (Clearance=0.102mm) (All),(All)
+Processing Rule : Silk to Silk (Clearance=4mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
 Rule Violations :0
 
-Processing Rule : Matched Lengths(Tolerance=1.27mm) (All)
+Processing Rule : Matched Lengths(Tolerance=50mil) (All)
 Rule Violations :0
 
-Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01

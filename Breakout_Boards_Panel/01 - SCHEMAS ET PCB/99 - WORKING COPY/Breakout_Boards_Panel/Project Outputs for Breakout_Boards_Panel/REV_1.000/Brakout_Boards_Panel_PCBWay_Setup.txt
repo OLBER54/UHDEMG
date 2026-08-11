@@ -1,0 +1,31 @@
+Breakout Boards Panel:
+Board Type: Panel by customer
+Different design in panel: 2
+Size: 241.5 mm X 206 mm
+Quantity: 5 pcs
+Layers: 4 Layers
+Material: FR-4
+FR4-TG: S1000H TG150
+Thickness: 1.6 mm
+Min track/spacing: 6/6 mil
+Min hole size: 0.2 mm
+Solder mask: Black
+Silkscreen: White
+UV printing multi-color: None
+Edge Connector: No
+Surface finish: Immersion gold (ENIG)
+Thickness of Immersion Gold: 1U"
+Via process: Vias not covered
+Finished Copper: 1 oz Cu
+Inner Copper: 1 oz
+Remove product info: Yes
+
+SMD-Stencil:
+Stencil Type: Non-framework
+Multi-level/Step stencil: No
+Size (mm): Custom Size (Valid Area 550 x 550 mm)
+Stencil side: Top
+Quantity: 1 piece
+Thickness: 0.10 mm
+Existing fiducials: No
+Electropolishing: Yes
