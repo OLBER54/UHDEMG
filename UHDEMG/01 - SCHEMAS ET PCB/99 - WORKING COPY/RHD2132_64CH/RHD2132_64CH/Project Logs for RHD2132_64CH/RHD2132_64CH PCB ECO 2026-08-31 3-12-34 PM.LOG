@@ -1,0 +1,601 @@
+Added Component: Designator=C1(0402_CAPACITOR)
+Added Component: Designator=C2(0402_CAPACITOR)
+Added Component: Designator=C3(0402_CAPACITOR)
+Added Component: Designator=C4(0402_CAPACITOR)
+Added Component: Designator=J1(FP-217183-0001-MFG)
+Added Component: Designator=J2(CON_ZIF_RA_36POS)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(CON_ZIF_RA_36POS)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R2(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R3(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R4(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R5(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R7(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R8(0402_Resistor)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=TP1(TP_Small_M2)
+Added Component: Designator=TP2(TP_Small_M2)
+Added Component: Designator=U1(QFN-56)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(QFN-56)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=C\S\_N Pin=J1-A7
+Added Pin To Net: NetName=C\S\_N Pin=R1-1
+Added Pin To Net: NetName=C\S\_N Pin=R2-1
+Added Pin To Net: NetName=C\S\_N Pin=U1-18
+Added Pin To Net: NetName=C\S\_N Pin=U2-18
+Added Net: Name=C\S\_N
+Added Pin To Net: NetName=C\S\_P Pin=J1-A6
+Added Pin To Net: NetName=C\S\_P Pin=R1-2
+Added Pin To Net: NetName=C\S\_P Pin=R2-2
+Added Pin To Net: NetName=C\S\_P Pin=U1-19
+Added Pin To Net: NetName=C\S\_P Pin=U2-19
+Added Net: Name=C\S\_P
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-A1
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=GND Pin=J1-B1
+Added Pin To Net: NetName=GND Pin=J1-B8
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=R7-1
+Added Pin To Net: NetName=GND Pin=R8-1
+Added Pin To Net: NetName=GND Pin=U1-11
+Added Pin To Net: NetName=GND Pin=U1-12
+Added Pin To Net: NetName=GND Pin=U1-17
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Pin To Net: NetName=GND Pin=U1-32
+Added Pin To Net: NetName=GND Pin=U1-57
+Added Pin To Net: NetName=GND Pin=U2-11
+Added Pin To Net: NetName=GND Pin=U2-12
+Added Pin To Net: NetName=GND Pin=U2-17
+Added Pin To Net: NetName=GND Pin=U2-29
+Added Pin To Net: NetName=GND Pin=U2-32
+Added Pin To Net: NetName=GND Pin=U2-57
+Added Net: Name=GND
+Added Pin To Net: NetName=INPUT0 Pin=J2-1
+Added Pin To Net: NetName=INPUT0 Pin=U1-9
+Added Net: Name=INPUT0
+Added Pin To Net: NetName=INPUT1 Pin=J2-2
+Added Pin To Net: NetName=INPUT1 Pin=U1-8
+Added Net: Name=INPUT1
+Added Pin To Net: NetName=INPUT2 Pin=J2-3
+Added Pin To Net: NetName=INPUT2 Pin=U1-7
+Added Net: Name=INPUT2
+Added Pin To Net: NetName=INPUT3 Pin=J2-4
+Added Pin To Net: NetName=INPUT3 Pin=U1-6
+Added Net: Name=INPUT3
+Added Pin To Net: NetName=INPUT4 Pin=J2-5
+Added Pin To Net: NetName=INPUT4 Pin=U1-5
+Added Net: Name=INPUT4
+Added Pin To Net: NetName=INPUT5 Pin=J2-6
+Added Pin To Net: NetName=INPUT5 Pin=U1-4
+Added Net: Name=INPUT5
+Added Pin To Net: NetName=INPUT6 Pin=J2-7
+Added Pin To Net: NetName=INPUT6 Pin=U1-3
+Added Net: Name=INPUT6
+Added Pin To Net: NetName=INPUT7 Pin=J2-8
+Added Pin To Net: NetName=INPUT7 Pin=U1-2
+Added Net: Name=INPUT7
+Added Pin To Net: NetName=INPUT8 Pin=J2-10
+Added Pin To Net: NetName=INPUT8 Pin=U1-1
+Added Net: Name=INPUT8
+Added Pin To Net: NetName=INPUT9 Pin=J2-11
+Added Pin To Net: NetName=INPUT9 Pin=U1-56
+Added Net: Name=INPUT9
+Added Pin To Net: NetName=INPUT10 Pin=J2-12
+Added Pin To Net: NetName=INPUT10 Pin=U1-55
+Added Net: Name=INPUT10
+Added Pin To Net: NetName=INPUT11 Pin=J2-13
+Added Pin To Net: NetName=INPUT11 Pin=U1-54
+Added Net: Name=INPUT11
+Added Pin To Net: NetName=INPUT12 Pin=J2-14
+Added Pin To Net: NetName=INPUT12 Pin=U1-53
+Added Net: Name=INPUT12
+Added Pin To Net: NetName=INPUT13 Pin=J2-15
+Added Pin To Net: NetName=INPUT13 Pin=U1-52
+Added Net: Name=INPUT13
+Added Pin To Net: NetName=INPUT14 Pin=J2-16
+Added Pin To Net: NetName=INPUT14 Pin=U1-51
+Added Net: Name=INPUT14
+Added Pin To Net: NetName=INPUT15 Pin=J2-17
+Added Pin To Net: NetName=INPUT15 Pin=U1-50
+Added Net: Name=INPUT15
+Added Pin To Net: NetName=INPUT16 Pin=J2-20
+Added Pin To Net: NetName=INPUT16 Pin=U1-49
+Added Net: Name=INPUT16
+Added Pin To Net: NetName=INPUT17 Pin=J2-21
+Added Pin To Net: NetName=INPUT17 Pin=U1-48
+Added Net: Name=INPUT17
+Added Pin To Net: NetName=INPUT18 Pin=J2-22
+Added Pin To Net: NetName=INPUT18 Pin=U1-47
+Added Net: Name=INPUT18
+Added Pin To Net: NetName=INPUT19 Pin=J2-23
+Added Pin To Net: NetName=INPUT19 Pin=U1-46
+Added Net: Name=INPUT19
+Added Pin To Net: NetName=INPUT20 Pin=J2-24
+Added Pin To Net: NetName=INPUT20 Pin=U1-45
+Added Net: Name=INPUT20
+Added Pin To Net: NetName=INPUT21 Pin=J2-25
+Added Pin To Net: NetName=INPUT21 Pin=U1-44
+Added Net: Name=INPUT21
+Added Pin To Net: NetName=INPUT22 Pin=J2-26
+Added Pin To Net: NetName=INPUT22 Pin=U1-43
+Added Net: Name=INPUT22
+Added Pin To Net: NetName=INPUT23 Pin=J2-27
+Added Pin To Net: NetName=INPUT23 Pin=U1-42
+Added Net: Name=INPUT23
+Added Pin To Net: NetName=INPUT24 Pin=J2-29
+Added Pin To Net: NetName=INPUT24 Pin=U1-41
+Added Net: Name=INPUT24
+Added Pin To Net: NetName=INPUT25 Pin=J2-30
+Added Pin To Net: NetName=INPUT25 Pin=U1-40
+Added Net: Name=INPUT25
+Added Pin To Net: NetName=INPUT26 Pin=J2-31
+Added Pin To Net: NetName=INPUT26 Pin=U1-39
+Added Net: Name=INPUT26
+Added Pin To Net: NetName=INPUT27 Pin=J2-32
+Added Pin To Net: NetName=INPUT27 Pin=U1-38
+Added Net: Name=INPUT27
+Added Pin To Net: NetName=INPUT28 Pin=J2-33
+Added Pin To Net: NetName=INPUT28 Pin=U1-37
+Added Net: Name=INPUT28
+Added Pin To Net: NetName=INPUT29 Pin=J2-34
+Added Pin To Net: NetName=INPUT29 Pin=U1-36
+Added Net: Name=INPUT29
+Added Pin To Net: NetName=INPUT30 Pin=J2-35
+Added Pin To Net: NetName=INPUT30 Pin=U1-35
+Added Net: Name=INPUT30
+Added Pin To Net: NetName=INPUT31 Pin=J2-36
+Added Pin To Net: NetName=INPUT31 Pin=U1-34
+Added Net: Name=INPUT31
+Added Pin To Net: NetName=INPUT32 Pin=J3-1
+Added Pin To Net: NetName=INPUT32 Pin=U2-9
+Added Net: Name=INPUT32
+Added Pin To Net: NetName=INPUT33 Pin=J3-2
+Added Pin To Net: NetName=INPUT33 Pin=U2-8
+Added Net: Name=INPUT33
+Added Pin To Net: NetName=INPUT34 Pin=J3-3
+Added Pin To Net: NetName=INPUT34 Pin=U2-7
+Added Net: Name=INPUT34
+Added Pin To Net: NetName=INPUT35 Pin=J3-4
+Added Pin To Net: NetName=INPUT35 Pin=U2-6
+Added Net: Name=INPUT35
+Added Pin To Net: NetName=INPUT36 Pin=J3-5
+Added Pin To Net: NetName=INPUT36 Pin=U2-5
+Added Net: Name=INPUT36
+Added Pin To Net: NetName=INPUT37 Pin=J3-6
+Added Pin To Net: NetName=INPUT37 Pin=U2-4
+Added Net: Name=INPUT37
+Added Pin To Net: NetName=INPUT38 Pin=J3-7
+Added Pin To Net: NetName=INPUT38 Pin=U2-3
+Added Net: Name=INPUT38
+Added Pin To Net: NetName=INPUT39 Pin=J3-8
+Added Pin To Net: NetName=INPUT39 Pin=U2-2
+Added Net: Name=INPUT39
+Added Pin To Net: NetName=INPUT40 Pin=J3-10
+Added Pin To Net: NetName=INPUT40 Pin=U2-1
+Added Net: Name=INPUT40
+Added Pin To Net: NetName=INPUT41 Pin=J3-11
+Added Pin To Net: NetName=INPUT41 Pin=U2-56
+Added Net: Name=INPUT41
+Added Pin To Net: NetName=INPUT42 Pin=J3-12
+Added Pin To Net: NetName=INPUT42 Pin=U2-55
+Added Net: Name=INPUT42
+Added Pin To Net: NetName=INPUT43 Pin=J3-13
+Added Pin To Net: NetName=INPUT43 Pin=U2-54
+Added Net: Name=INPUT43
+Added Pin To Net: NetName=INPUT44 Pin=J3-14
+Added Pin To Net: NetName=INPUT44 Pin=U2-53
+Added Net: Name=INPUT44
+Added Pin To Net: NetName=INPUT45 Pin=J3-15
+Added Pin To Net: NetName=INPUT45 Pin=U2-52
+Added Net: Name=INPUT45
+Added Pin To Net: NetName=INPUT46 Pin=J3-16
+Added Pin To Net: NetName=INPUT46 Pin=U2-51
+Added Net: Name=INPUT46
+Added Pin To Net: NetName=INPUT47 Pin=J3-17
+Added Pin To Net: NetName=INPUT47 Pin=U2-50
+Added Net: Name=INPUT47
+Added Pin To Net: NetName=INPUT48 Pin=J3-20
+Added Pin To Net: NetName=INPUT48 Pin=U2-49
+Added Net: Name=INPUT48
+Added Pin To Net: NetName=INPUT49 Pin=J3-21
+Added Pin To Net: NetName=INPUT49 Pin=U2-48
+Added Net: Name=INPUT49
+Added Pin To Net: NetName=INPUT50 Pin=J3-22
+Added Pin To Net: NetName=INPUT50 Pin=U2-47
+Added Net: Name=INPUT50
+Added Pin To Net: NetName=INPUT51 Pin=J3-23
+Added Pin To Net: NetName=INPUT51 Pin=U2-46
+Added Net: Name=INPUT51
+Added Pin To Net: NetName=INPUT52 Pin=J3-24
+Added Pin To Net: NetName=INPUT52 Pin=U2-45
+Added Net: Name=INPUT52
+Added Pin To Net: NetName=INPUT53 Pin=J3-25
+Added Pin To Net: NetName=INPUT53 Pin=U2-44
+Added Net: Name=INPUT53
+Added Pin To Net: NetName=INPUT54 Pin=J3-26
+Added Pin To Net: NetName=INPUT54 Pin=U2-43
+Added Net: Name=INPUT54
+Added Pin To Net: NetName=INPUT55 Pin=J3-27
+Added Pin To Net: NetName=INPUT55 Pin=U2-42
+Added Net: Name=INPUT55
+Added Pin To Net: NetName=INPUT56 Pin=J3-29
+Added Pin To Net: NetName=INPUT56 Pin=U2-41
+Added Net: Name=INPUT56
+Added Pin To Net: NetName=INPUT57 Pin=J3-30
+Added Pin To Net: NetName=INPUT57 Pin=U2-40
+Added Net: Name=INPUT57
+Added Pin To Net: NetName=INPUT58 Pin=J3-31
+Added Pin To Net: NetName=INPUT58 Pin=U2-39
+Added Net: Name=INPUT58
+Added Pin To Net: NetName=INPUT59 Pin=J3-32
+Added Pin To Net: NetName=INPUT59 Pin=U2-38
+Added Net: Name=INPUT59
+Added Pin To Net: NetName=INPUT60 Pin=J3-33
+Added Pin To Net: NetName=INPUT60 Pin=U2-37
+Added Net: Name=INPUT60
+Added Pin To Net: NetName=INPUT61 Pin=J3-34
+Added Pin To Net: NetName=INPUT61 Pin=U2-36
+Added Net: Name=INPUT61
+Added Pin To Net: NetName=INPUT62 Pin=J3-35
+Added Pin To Net: NetName=INPUT62 Pin=U2-35
+Added Net: Name=INPUT62
+Added Pin To Net: NetName=INPUT63 Pin=J3-36
+Added Pin To Net: NetName=INPUT63 Pin=U2-34
+Added Net: Name=INPUT63
+Added Pin To Net: NetName=MISO1_N Pin=J1-B3
+Added Pin To Net: NetName=MISO1_N Pin=U1-24
+Added Net: Name=MISO1_N
+Added Pin To Net: NetName=MISO1_P Pin=J1-B2
+Added Pin To Net: NetName=MISO1_P Pin=U1-25
+Added Net: Name=MISO1_P
+Added Pin To Net: NetName=MISO2_N Pin=J1-A3
+Added Pin To Net: NetName=MISO2_N Pin=U2-24
+Added Net: Name=MISO2_N
+Added Pin To Net: NetName=MISO2_P Pin=J1-A2
+Added Pin To Net: NetName=MISO2_P Pin=U2-25
+Added Net: Name=MISO2_P
+Added Pin To Net: NetName=MOSI_N Pin=J1-A10
+Added Pin To Net: NetName=MOSI_N Pin=R3-1
+Added Pin To Net: NetName=MOSI_N Pin=R4-1
+Added Pin To Net: NetName=MOSI_N Pin=U1-22
+Added Pin To Net: NetName=MOSI_N Pin=U2-22
+Added Net: Name=MOSI_N
+Added Pin To Net: NetName=MOSI_P Pin=J1-A11
+Added Pin To Net: NetName=MOSI_P Pin=R3-2
+Added Pin To Net: NetName=MOSI_P Pin=R4-2
+Added Pin To Net: NetName=MOSI_P Pin=U1-23
+Added Pin To Net: NetName=MOSI_P Pin=U2-23
+Added Net: Name=MOSI_P
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=U1-28
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC4_2 Pin=U2-28
+Added Net: Name=NetC4_2
+Added Pin To Net: NetName=REF Pin=J2-9
+Added Pin To Net: NetName=REF Pin=J2-18
+Added Pin To Net: NetName=REF Pin=J2-19
+Added Pin To Net: NetName=REF Pin=J2-28
+Added Pin To Net: NetName=REF Pin=J3-9
+Added Pin To Net: NetName=REF Pin=J3-18
+Added Pin To Net: NetName=REF Pin=J3-19
+Added Pin To Net: NetName=REF Pin=J3-28
+Added Pin To Net: NetName=REF Pin=R7-2
+Added Pin To Net: NetName=REF Pin=R8-2
+Added Pin To Net: NetName=REF Pin=TP1-1
+Added Pin To Net: NetName=REF Pin=TP2-1
+Added Pin To Net: NetName=REF Pin=U1-10
+Added Pin To Net: NetName=REF Pin=U2-10
+Added Net: Name=REF
+Added Pin To Net: NetName=SCLK_N Pin=J1-B10
+Added Pin To Net: NetName=SCLK_N Pin=R5-1
+Added Pin To Net: NetName=SCLK_N Pin=R6-1
+Added Pin To Net: NetName=SCLK_N Pin=U1-20
+Added Pin To Net: NetName=SCLK_N Pin=U2-20
+Added Net: Name=SCLK_N
+Added Pin To Net: NetName=SCLK_P Pin=J1-B11
+Added Pin To Net: NetName=SCLK_P Pin=R5-2
+Added Pin To Net: NetName=SCLK_P Pin=R6-2
+Added Pin To Net: NetName=SCLK_P Pin=U1-21
+Added Pin To Net: NetName=SCLK_P Pin=U2-21
+Added Net: Name=SCLK_P
+Added Pin To Net: NetName=VDD_3V3 Pin=C1-2
+Added Pin To Net: NetName=VDD_3V3 Pin=C2-2
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A4
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A8
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A9
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-B4
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-B9
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-13
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-14
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-15
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-16
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-26
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-30
+Added Pin To Net: NetName=VDD_3V3 Pin=U1-31
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-13
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-14
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-15
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-16
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-26
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-30
+Added Pin To Net: NetName=VDD_3V3 Pin=U2-31
+Added Net: Name=VDD_3V3
+Added Class: Name=RHD2132_64CH
+Added Differential Pair: Name=C\S\
+Added Differential Pair: Name=MISO1
+Added Differential Pair: Name=MISO2
+Added Differential Pair: Name=MOSI
+Added Differential Pair: Name=SCLK
+Added Rule: Name=Schematic Supply Nets_2

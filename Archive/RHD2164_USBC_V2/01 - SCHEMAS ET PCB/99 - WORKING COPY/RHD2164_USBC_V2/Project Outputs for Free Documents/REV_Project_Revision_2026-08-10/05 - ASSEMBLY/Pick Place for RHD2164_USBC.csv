@@ -1,0 +1,25 @@
+Altium Designer Pick and Place Locations
+C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\RHD2164_USBC_V2\01 - SCHEMAS ET PCB\99 - WORKING COPY\RHD2164_USBC_V2\Project Outputs for Free Documents\REV_Project_Revision_2026-08-10\05 - ASSEMBLY\Pick Place for RHD2164_USBC.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       10-08-26
+Time:       12:06
+Revision:   36ac76ce9acc2cf09c7107b19654b183b9338c4e
+Variant:    No variations
+Units used: mil
+
+"Designator","Description","Package","Layer","Center-X(mil)","Center-Y(mil)","Rotation","Assembly Note","Assembly Type","Polarized","Manufacturer #1","Part Number #1","Supplier 1","Supplier Part Number 1","HelpURL"
+"R4","Resistor","","TopLayer","35,685","505,000","0","","","","","","","",""
+"R3","Resistor","","TopLayer","-119,315","505,000","0","","","","","","","",""
+"R2","Resistor","","TopLayer","180,685","505,000","180","","","","","","","",""
+"R1","Resistor","","TopLayer","-345,181","538,268","180","","","","","","","",""
+"C2","Capacitor","","TopLayer","267,507","713,150","0","","","","","","","",""
+"C1","Capacitor","","TopLayer","245,370","618,026","180","","","","","","","",""
+"TP2","","","TopLayer","374,016","311,024","0","","","","","","","",""
+"TP1","","","TopLayer","-374,016","311,024","0","","","","","","","",""
+"U1","","BGA104_9X7","TopLayer","-0,693","831,580","0","","","","","","","",""
+"J2","36 Position FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","","BottomLayer","-0,693","1140,039","0","","","","","","","",""
+"J1","36 Position FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","","TopLayer","-0,693","1140,039","180","","","","","","","",""
+"J3","USB-C (USB TYPE-C) USB 3.2 Gen 1 (USB 3.1 Gen 1, Superspeed (USB 3.0)) Receptacle Connector 24 Position Through Hole, Right Angle","","TopLayer","-7,819","206,299","0","","","","","","","",""

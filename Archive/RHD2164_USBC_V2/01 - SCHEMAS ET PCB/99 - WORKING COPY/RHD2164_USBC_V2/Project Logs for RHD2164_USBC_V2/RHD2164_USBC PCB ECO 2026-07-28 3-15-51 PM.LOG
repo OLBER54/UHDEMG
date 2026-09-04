@@ -1,0 +1,12 @@
+Change Net Name : Old Net Name=RHD2216_CSN_+ New Net Name=RHD2216_CSN_P
+Change Net Name : Old Net Name=RHD2216_CSN_- New Net Name=RHD2216_CSN_N
+Change Net Name : Old Net Name=RHD2216_MISO_+ New Net Name=RHD2216_MISO_P
+Change Net Name : Old Net Name=RHD2216_MISO_- New Net Name=RHD2216_MISO_N
+Change Net Name : Old Net Name=RHD2216_MOSI_+ New Net Name=RHD2216_MOSI_P
+Change Net Name : Old Net Name=RHD2216_MOSI_- New Net Name=RHD2216_MOSI_N
+Change Net Name : Old Net Name=RHD2216_SCLK_+ New Net Name=RHD2216_SCLK_P
+Change Net Name : Old Net Name=RHD2216_SCLK_- New Net Name=RHD2216_SCLK_N
+Added Differential Pair: Name=RHD2216_CSN
+Added Differential Pair: Name=RHD2216_MISO
+Added Differential Pair: Name=RHD2216_MOSI
+Added Differential Pair: Name=RHD2216_SCLK

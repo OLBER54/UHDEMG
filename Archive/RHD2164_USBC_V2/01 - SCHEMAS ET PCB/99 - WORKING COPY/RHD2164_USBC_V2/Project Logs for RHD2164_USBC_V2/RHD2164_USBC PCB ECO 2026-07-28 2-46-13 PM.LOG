@@ -1,0 +1,10 @@
+Change Physical Footprint: Designator=1 Old Footprint=BGA104_9X7 New Footprint=BGA104_9X7
+Change Physical Footprint: Designator=C1 Old Footprint=0402_CAPACITOR New Footprint=0402_CAPACITOR
+Change Physical Footprint: Designator=C2 Old Footprint=0402_CAPACITOR New Footprint=0402_CAPACITOR
+Change Physical Footprint: Designator=J1 Old Footprint=CON_ZIF_RA_36POS New Footprint=CON_ZIF_RA_36POS
+Change Physical Footprint: Designator=J2 Old Footprint=CON_ZIF_RA_36POS New Footprint=CON_ZIF_RA_36POS
+Change Physical Footprint: Designator=J3 Old Footprint=FP-217183-0001-MFG New Footprint=FP-217183-0001-MFG
+Change Physical Footprint: Designator=R1 Old Footprint=0402_Resistor New Footprint=0402_Resistor
+Change Physical Footprint: Designator=R2 Old Footprint=0402_Resistor New Footprint=0402_Resistor
+Change Physical Footprint: Designator=R3 Old Footprint=0402_Resistor New Footprint=0402_Resistor
+Change Physical Footprint: Designator=R4 Old Footprint=0402_Resistor New Footprint=0402_Resistor

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=FPGA_TDO Pin=J4-03
+Removed Pin From Net: NetName=MC2_10 Pin=J4-05
+Removed Pin From Net: NetName=FPGA_TDI Pin=J4-06
+Removed Pin From Net: NetName=SYS_CLK_MC2 Pin=J4-08
+Added Pin To Net: NetName=FPGA_TDI Pin=J4-03
+Added Pin To Net: NetName=FPGA_TDO Pin=J4-05
+Added Pin To Net: NetName=SYS_CLK_MC2 Pin=J4-06
+Added Pin To Net: NetName=MC2_10 Pin=J4-08

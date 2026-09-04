@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Microneedle_Patch\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch\Microneedle_Patch_V2.PcbDoc
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=8.00

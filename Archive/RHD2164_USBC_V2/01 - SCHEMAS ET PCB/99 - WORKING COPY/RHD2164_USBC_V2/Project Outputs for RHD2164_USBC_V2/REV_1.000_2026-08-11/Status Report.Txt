@@ -1,0 +1,13 @@
+Output: PCB NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RHD2164_USBC.PcbDoc]
+   Generated File[RHD2164_USBC-RoundHoles.TXT]
+   Generated File[RHD2164_USBC-SlotHoles.TXT]
+   Generated File[RHD2164_USBC.LDP]
+   Generated File[RHD2164_USBC.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 9:03:42 AM On 2026-08-11

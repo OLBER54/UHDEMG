@@ -1,0 +1,31 @@
+RHD2132_64CH:
+Board Type: Single pieces
+Different design in panel: 1
+Size: 26.7 mm X 34.3 mm
+Quantity: 10 pcs
+Layers: 6 Layers
+Material: FR-4
+FR4-TG: S1000H TG150
+Thickness: 1.6 mm
+Min track/spacing: 4/4 mil
+Min hole size: 0.2 mm
+Solder mask: Green
+Silkscreen: White
+UV printing multi-color: None
+Edge Connector: No
+Surface finish: Immersion gold (ENIG)
+Thickness of Immersion Gold: 1U"
+Via process: Tenting Vias
+Finished Copper: 1 oz Cu
+Inner Copper: 1 oz
+Remove product info: Yes
+
+SMD-Stencil:
+Stencil Type: Non-framework
+Multi-level/Step stencil: No
+Size (mm): Custom Size (Valid Area 190 x 290 mm)
+Stencil Side: Top + Bottom (On single stencil)
+Quantity: 1 piece
+Thickness: 0.10 mm
+Existing fiducials: No
+Electropolishing: Yes

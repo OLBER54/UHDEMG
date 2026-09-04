@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=REF Pin=TP1-1
+Removed Member From Class: ClassName=RHD2164_USBC Member=UPTH1
+Removed Member From Class: ClassName=RHD2164_USBC Member=UPTH2
+Added Component: Designator=TP1(TP_Small)
+Added Component: Designator=TP2(TP_Small)
+Added Pin To Net: NetName=REF Pin=TP1-1
+Added Pin To Net: NetName=REF Pin=TP2-1
+Added Member To Class: ClassName=RHD2164_USBC Member=Component TP2 TP_Small

@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=R8-1
+Removed Pin From Net: NetName=REF Pin=R8-2
+Removed Member From Class: ClassName=RHD2132_64CH Member=R8

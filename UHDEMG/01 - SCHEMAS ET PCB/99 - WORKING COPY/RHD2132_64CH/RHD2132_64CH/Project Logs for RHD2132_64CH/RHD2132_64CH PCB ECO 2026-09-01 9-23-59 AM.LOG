@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=MISO2_N Pin=J1-B2
+Removed Pin From Net: NetName=MISO2_P Pin=J1-B3
+Removed Pin From Net: NetName=MISO1_P Pin=J1-B10
+Removed Pin From Net: NetName=MISO1_N Pin=J1-B11
+Added Pin To Net: NetName=MISO1_P Pin=J1-B2
+Added Pin To Net: NetName=MISO1_N Pin=J1-B3
+Added Pin To Net: NetName=MISO2_N Pin=J1-B10
+Added Pin To Net: NetName=MISO2_P Pin=J1-B11
