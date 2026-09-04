@@ -36,4 +36,8 @@ PCB Projects:
 - Microneedle_Patch: Flexible circuit board where microneedles are installed. 32 electrodes per FPC.
 - Microneedle_Patch_Mirrored: Same as Microneedle_Patch, but the tail goes the other way, allowing to connect 64 electrodes to one RHD2132_64CH board.
 
-Diagrams were made to help understand the use of each PCB. They are available on UHDEMG\03 - NOTES DE CONCEPTION\Project Visualization.drawio
+<img width="1232" height="590" alt="Global_Project_Diagram" src="https://github.com/user-attachments/assets/b075e9d7-1be2-4867-96c1-8b69d362849b" />
+
+<img width="683" height="515" alt="Electrode_Breakout_Diagram" src="https://github.com/user-attachments/assets/037b7ee7-72f6-4c2e-bf71-da43bcf0bd5c" />
+
+
