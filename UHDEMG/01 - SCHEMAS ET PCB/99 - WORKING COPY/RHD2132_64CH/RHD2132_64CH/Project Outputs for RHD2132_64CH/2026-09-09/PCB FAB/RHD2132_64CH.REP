@@ -1,0 +1,295 @@
+*************************************************************
+FileName = RHD2132_64CH.GBR
+AutoAperture = True
+*************************************************************
+Generating : Board Outline
+      File : RHD2132_64CH.GM5
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Manufacturing Notes
+      File : RHD2132_64CH.GM9
+
+    Adding Layer      : Manufacturing Notes
+
+
+Used DCodes :
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : RHD2132_64CH.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D12
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : RHD2132_64CH.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : RHD2132_64CH.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : RHD2132_64CH.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D19
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : RHD2132_64CH.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : RHD2132_64CH.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : RHD2132_64CH.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D20
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Ground Plane 1
+      File : RHD2132_64CH.GP1
+
+    Adding Layer      : Ground Plane 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Third Layer
+      File : RHD2132_64CH.G1
+
+    Adding Layer      : Third Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D29
+    D31
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Ground Plane 2
+      File : RHD2132_64CH.GP2
+
+    Adding Layer      : Ground Plane 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+*************************************************************
+
+*************************************************************
+Generating : Fourth Layer
+      File : RHD2132_64CH.G2
+
+    Adding Layer      : Fourth Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D29
+    D31
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : RHD2132_64CH.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : RHD2132_64CH.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D44
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : RHD2132_64CH.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D44
+*************************************************************
+
