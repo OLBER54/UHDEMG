@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Electrode Breakout\01 - SCHEMAS ET PCB\99 - WORKING COPY\Electrode_Breakout\Electrode_Breakout.PcbDoc
-Date     : 2026-08-04
-Time     : 5:50:47 PM
+PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\Electrode_Breakout\Electrode_Breakout.PcbDoc
+Date     : 2026-09-09
+Time     : 12:19:32 PM
 
 Processing Rule : Clearance Constraint (Gap=12mil) (All),(All)
 Rule Violations :0
@@ -48,4 +48,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
