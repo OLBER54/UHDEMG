@@ -106,48 +106,48 @@ DocumentPath=Project Outputs for RHD2132_64CH\Design Rule Check - RHD2132_64CH.h
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2026-09-01
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
+Name=Project_DateCode
+Value=DC260901
 
 [Parameter3]
-Name=Project_Revision
-Value=2.000
+Name=Project_Designer1
+Value=Olivier Bergeron
 
 [Parameter4]
-Name=Project_Name
-Value=RHD2132_64CH
+Name=Project_Designer2
+Value=Quentin Mascret
 
 [Parameter5]
-Name=Project_Group
-Value=SBioML
+Name=Project_Designer3
+Value=Benoit Gosselin
 
 [Parameter6]
 Name=Project_Global
 Value=UHDEMG
 
 [Parameter7]
-Name=Project_Designer3
-Value=Benoit Gosselin
+Name=Project_Group
+Value=SBioML
 
 [Parameter8]
-Name=Project_Designer2
-Value=Quentin Mascret
+Name=Project_Name
+Value=RHD2132_64CH
 
 [Parameter9]
-Name=Project_Designer1
-Value=Olivier Bergeron
+Name=Project_Revision
+Value=2.000
 
 [Parameter10]
-Name=Project_DateCode
-Value=DC260901
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
 
 [Parameter11]
-Name=Project_Date
-Value=2026-09-01
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources
@@ -1119,10 +1119,16 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=UHDEMG.IntLib
-ComponentDesignItemID0=IC_RHD2132
-ComponentSymbolReference0=IC_RHD2132
+ComponentDesignItemID0=CON_ZIF_RA_36POS
+ComponentSymbolReference0=CON_ZIF_RA_36POS
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=UHDEMG.IntLib
+ComponentDesignItemID1=IC_RHD2132
+ComponentSymbolReference1=IC_RHD2132
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1191,8 +1197,11 @@ ParameterUpdate25=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=QFN-56
+ModelName0=CON_ZIF_RA_36POS
 ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=QFN-56
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
