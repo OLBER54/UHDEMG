@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=C\S\_N Pin=R2-1
+Removed Pin From Net: NetName=C\S\_P Pin=R2-2
+Removed Pin From Net: NetName=MOSI_N Pin=R4-1
+Removed Pin From Net: NetName=MOSI_P Pin=R4-2
+Removed Pin From Net: NetName=SCLK_N Pin=R6-1
+Removed Pin From Net: NetName=SCLK_P Pin=R6-2
+Removed Member From Class: ClassName=RHD2132_64CH Member=R2
+Removed Member From Class: ClassName=RHD2132_64CH Member=R4
+Removed Member From Class: ClassName=RHD2132_64CH Member=R6

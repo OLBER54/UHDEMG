@@ -1,0 +1,3 @@
+Added Component: Designator=TP2(TP_Small_M2)
+Added Pin To Net: NetName=GND Pin=TP2-1
+Added Member To Class: ClassName=Electrode_Breakout Member=Component TP2 TP_Small

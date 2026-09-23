@@ -1,0 +1,12 @@
+Output: PCB NC Drill Files
+Type  : NC Drill
+From  : PCB Document [Microneedle_Patch_Mirrored_V2.PcbDoc]
+   Generated File[Microneedle_Patch_Mirrored_V2.TXT]
+   Generated File[Microneedle_Patch_Mirrored_V2.LDP]
+   Generated File[Microneedle_Patch_Mirrored_V2.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 6:12:40 PM On 2026-08-10

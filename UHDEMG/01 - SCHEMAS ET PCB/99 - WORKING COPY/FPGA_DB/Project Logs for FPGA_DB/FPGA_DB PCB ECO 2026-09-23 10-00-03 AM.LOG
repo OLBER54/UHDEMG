@@ -1,0 +1,117 @@
+Removed Pin From Net: NetName=GND Pin=J10_A-B6
+Removed Pin From Net: NetName=GND Pin=J10_A-B7
+Removed Pin From Net: NetName=GND Pin=J10_B-B6
+Removed Pin From Net: NetName=GND Pin=J10_B-B7
+Removed Pin From Net: NetName=GND Pin=J10_C-B6
+Removed Pin From Net: NetName=GND Pin=J10_C-B7
+Removed Pin From Net: NetName=GND Pin=J10_D-B6
+Removed Pin From Net: NetName=GND Pin=J10_D-B7
+Removed Pin From Net: NetName=GND Pin=J10_E-B6
+Removed Pin From Net: NetName=GND Pin=J10_E-B7
+Removed Pin From Net: NetName=GND Pin=J10_F-B6
+Removed Pin From Net: NetName=GND Pin=J10_F-B7
+Removed Pin From Net: NetName=GND Pin=J10_G-B6
+Removed Pin From Net: NetName=GND Pin=J10_G-B7
+Removed Pin From Net: NetName=GND Pin=J10_H-B6
+Removed Pin From Net: NetName=GND Pin=J10_H-B7
+Change Component Comment : Designator=C9_A Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_B Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_C Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_D Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_E Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_F Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_G Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C9_H Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_A Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_B Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_C Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_D Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_E Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_F Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_G Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C11_H Old Comment=1n New Comment=Value
+Change Component Comment : Designator=C2 Old Comment=1u New Comment=Value
+Change Component Comment : Designator=R1 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R2 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R3 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R4 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R5 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_A Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_B Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_C Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_D Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_E Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_F Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_G Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R7_H Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_A Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_B Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_C Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_D Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_E Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_F Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_G Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R10_H Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=R12 Old Comment=10K0 New Comment=Value
+Change Component Comment : Designator=C7_A Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_B Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_C Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_D Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_E Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_F Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_G Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C7_H Old Comment=10u New Comment=Value
+Change Component Comment : Designator=C1 Old Comment=22u New Comment=Value
+Change Component Comment : Designator=C3 Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C4 Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_A Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_B Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_C Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_D Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_E Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_F Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_G Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C6_H Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_A Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_B Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_C Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_D Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_E Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_F Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_G Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C8_H Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_A Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_B Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_C Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_D Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_E Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_F Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_G Old Comment=100n New Comment=Value
+Change Component Comment : Designator=C10_H Old Comment=100n New Comment=Value
+Change Component Comment : Designator=R8_A Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_B Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_C Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_D Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_E Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_F Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_G Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R8_H Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_A Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_B Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_C Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_D Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_E Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_F Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_G Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R9_H Old Comment=100R New Comment=Value
+Change Component Comment : Designator=R6_A Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_B Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_C Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_D Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_E Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_F Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_G Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R6_H Old Comment=330R New Comment=Value
+Change Component Comment : Designator=R11 Old Comment=TBD New Comment=Value
+Added Member To Class: ClassName=F Member=Component C6_F (C6) Value
+Added Member To Class: ClassName=A Member=Component R6_A (R6) Value

@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\FPGA_DB\FPGA_DB.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Via|Scope=Board|Minimum=2.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_MH|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Stitching GND|Scope=Board|Minimum=8.00
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=Width|RuleName=GND_Width|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=3V3_Width|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=General|Scope=Board|Minimum=5.00
+RuleKind=Width|RuleName=5V0_Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=4.00

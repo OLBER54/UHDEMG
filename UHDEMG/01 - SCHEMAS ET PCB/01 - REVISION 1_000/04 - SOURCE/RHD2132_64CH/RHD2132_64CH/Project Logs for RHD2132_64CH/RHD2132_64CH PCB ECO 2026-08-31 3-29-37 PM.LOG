@@ -1,0 +1,26 @@
+Added Component: Designator=J1(FP-217183-0001-MFG)
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=GND Pin=J1-A1
+Added Pin To Net: NetName=MISO2_P Pin=J1-A2
+Added Pin To Net: NetName=MISO2_N Pin=J1-A3
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A4
+Added Pin To Net: NetName=C\S\_P Pin=J1-A6
+Added Pin To Net: NetName=C\S\_N Pin=J1-A7
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A8
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-A9
+Added Pin To Net: NetName=MOSI_N Pin=J1-A10
+Added Pin To Net: NetName=MOSI_P Pin=J1-A11
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=GND Pin=J1-B1
+Added Pin To Net: NetName=MISO1_P Pin=J1-B2
+Added Pin To Net: NetName=MISO1_N Pin=J1-B3
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-B4
+Added Pin To Net: NetName=GND Pin=J1-B8
+Added Pin To Net: NetName=VDD_3V3 Pin=J1-B9
+Added Pin To Net: NetName=SCLK_N Pin=J1-B10
+Added Pin To Net: NetName=SCLK_P Pin=J1-B11
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Member To Class: ClassName=RHD2132_64CH Member=Component J1 217183-0001

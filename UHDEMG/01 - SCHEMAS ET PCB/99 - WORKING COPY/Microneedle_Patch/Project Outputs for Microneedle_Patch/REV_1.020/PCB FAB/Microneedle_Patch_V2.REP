@@ -2,73 +2,15 @@
 FileName = Microneedle_Patch_V2.GBR
 AutoAperture = True
 *************************************************************
-Generating : Drill Drawing
-      File : Microneedle_Patch_V2.GD1
+Generating : Bottom Overlay
+      File : Microneedle_Patch_V2.GBO
 
-    Adding Drill Pair : Top-Bottom
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : Microneedle_Patch_V2.GG1
-
-    Adding Drill Pair : Top-Bottom
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D20
-*************************************************************
-
-*************************************************************
-Generating : Board Outline
-      File : Microneedle_Patch_V2.GM5
-
-    Adding Layer      : Board Outline
+    Adding Layer      : Bottom Overlay
 
 
 Used DCodes :
     D17
-*************************************************************
-
-*************************************************************
-Generating : Stiffener
-      File : Microneedle_Patch_V2.GM18
-
-    Adding Layer      : Stiffener
-
-
-Used DCodes :
-    D17
-*************************************************************
-
-*************************************************************
-Generating : Manufacturing Notes
-      File : Microneedle_Patch_V2.GM9
-
-    Adding Layer      : Manufacturing Notes
-
-
-Used DCodes :
     D18
-    D19
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : Microneedle_Patch_V2.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
 *************************************************************
 
 *************************************************************
@@ -86,36 +28,37 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top
-      File : Microneedle_Patch_V2.GTL
+Generating : Stiffener
+      File : Microneedle_Patch_V2.GM18
 
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Stiffener
 
 
 Used DCodes :
-    D10
-    D11
-    D14
-    D15
+    D17
 *************************************************************
 
 *************************************************************
-Generating : Board Layer Stack Top Coverlay
-      File : Microneedle_Patch_V2.GTS
+Generating : Board Outline
+      File : Microneedle_Patch_V2.GM5
 
-    Adding Layer      : Board Layer Stack Top Coverlay
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Board Outline
 
 
 Used DCodes :
-    D11
-    D12
-    D13
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Manufacturing Notes
+      File : Microneedle_Patch_V2.GM9
+
+    Adding Layer      : Manufacturing Notes
+
+
+Used DCodes :
+    D19
+    D20
 *************************************************************
 
 *************************************************************
@@ -134,13 +77,45 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Overlay
-      File : Microneedle_Patch_V2.GBO
+Generating : Top Overlay
+      File : Microneedle_Patch_V2.GTO
 
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Top Overlay
 
 
 Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : Microneedle_Patch_V2.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Board Layer Stack Top Coverlay
+      File : Microneedle_Patch_V2.GTS
+
+    Adding Layer      : Board Layer Stack Top Coverlay
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D12
+    D13
 *************************************************************
 
 *************************************************************
@@ -160,17 +135,44 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom
-      File : Microneedle_Patch_V2.GBL
+Generating : Top
+      File : Microneedle_Patch_V2.GTL
 
-    Adding Layer      : Bottom
+    Adding Layer      : Top
 
     Adding Layer      : Multi-Layer
 
 
 Used DCodes :
+    D10
+    D11
     D14
     D15
-    D16
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : Microneedle_Patch_V2.GD1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D21
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : Microneedle_Patch_V2.GG1
+
+    Adding Drill Pair : Top-Bottom
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D21
 *************************************************************
 

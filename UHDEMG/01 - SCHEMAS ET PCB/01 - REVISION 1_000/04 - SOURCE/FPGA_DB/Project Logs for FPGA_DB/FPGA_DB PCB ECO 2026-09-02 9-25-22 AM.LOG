@@ -1,0 +1,40 @@
+Change Component Footprint: Designator=R6_A Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_B Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_C Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_D Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_E Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_F Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_G Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R6_H Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_A Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_B Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_C Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_D Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_E Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_F Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_G Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Change Component Footprint: Designator=R7_H Old Footprint=0402_Resistor New Footprint=0603_RESISTOR
+Added Member To Class: ClassName=A Member=Component R7_A (R7) 10K0
+Added Member To Class: ClassName=B Member=Component R7_B (R7) 10K0
+Added Member To Class: ClassName=C Member=Component R7_C (R7) 10K0
+Added Member To Class: ClassName=D Member=Component R7_D (R7) 10K0
+Added Member To Class: ClassName=E Member=Component R7_E (R7) 10K0
+Added Member To Class: ClassName=F Member=Component R7_F (R7) 10K0
+Added Member To Class: ClassName=G Member=Component R7_G (R7) 10K0
+Added Member To Class: ClassName=H Member=Component R7_H (R7) 10K0
+Added Member To Class: ClassName=A Member=Component R8_A (R8) 100R
+Added Member To Class: ClassName=B Member=Component R8_B (R8) 100R
+Added Member To Class: ClassName=C Member=Component R8_C (R8) 100R
+Added Member To Class: ClassName=D Member=Component R8_D (R8) 100R
+Added Member To Class: ClassName=E Member=Component R8_E (R8) 100R
+Added Member To Class: ClassName=F Member=Component R8_F (R8) 100R
+Added Member To Class: ClassName=G Member=Component R8_G (R8) 100R
+Added Member To Class: ClassName=H Member=Component R8_H (R8) 100R
+Added Member To Class: ClassName=A Member=Component R9_A (R9) 100R
+Added Member To Class: ClassName=B Member=Component R9_B (R9) 100R
+Added Member To Class: ClassName=C Member=Component R9_C (R9) 100R
+Added Member To Class: ClassName=D Member=Component R9_D (R9) 100R
+Added Member To Class: ClassName=E Member=Component R9_E (R9) 100R
+Added Member To Class: ClassName=F Member=Component R9_F (R9) 100R
+Added Member To Class: ClassName=G Member=Component R9_G (R9) 100R
+Added Member To Class: ClassName=H Member=Component R9_H (R9) 100R

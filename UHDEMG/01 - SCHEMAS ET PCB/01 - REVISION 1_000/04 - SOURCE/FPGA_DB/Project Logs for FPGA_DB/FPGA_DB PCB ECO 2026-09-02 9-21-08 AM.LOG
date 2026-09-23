@@ -1,0 +1,24 @@
+Change Component Designator: OldDesignator=R?_A NewDesignator=R11_A
+Change Component Designator: OldDesignator=R?_A NewDesignator=R12_A
+Change Component Designator: OldDesignator=R?_B NewDesignator=R11_B
+Change Component Designator: OldDesignator=R?_B NewDesignator=R12_B
+Change Component Designator: OldDesignator=R?_C NewDesignator=R11_C
+Change Component Designator: OldDesignator=R?_C NewDesignator=R12_C
+Change Component Designator: OldDesignator=R?_D NewDesignator=R11_D
+Change Component Designator: OldDesignator=R?_D NewDesignator=R12_D
+Change Component Designator: OldDesignator=R?_E NewDesignator=R11_E
+Change Component Designator: OldDesignator=R?_E NewDesignator=R12_E
+Change Component Designator: OldDesignator=R?_F NewDesignator=R11_F
+Change Component Designator: OldDesignator=R?_F NewDesignator=R12_F
+Change Component Designator: OldDesignator=R?_G NewDesignator=R11_G
+Change Component Designator: OldDesignator=R?_G NewDesignator=R12_G
+Change Component Designator: OldDesignator=R?_H NewDesignator=R11_H
+Change Component Designator: OldDesignator=R?_H NewDesignator=R12_H
+Added Member To Class: ClassName=A Member=Component R11_A (R11) Value
+Added Member To Class: ClassName=B Member=Component R11_B (R11) Value
+Added Member To Class: ClassName=D Member=Component R11_D (R11) Value
+Added Member To Class: ClassName=G Member=Component R11_G (R11) Value
+Added Member To Class: ClassName=C Member=Component R12_C (R12) Value
+Added Member To Class: ClassName=E Member=Component R12_E (R12) Value
+Added Member To Class: ClassName=F Member=Component R12_F (R12) Value
+Added Member To Class: ClassName=H Member=Component R12_H (R12) Value

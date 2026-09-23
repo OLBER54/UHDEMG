@@ -1,0 +1,266 @@
+Added Component: Designator=J1(CON_ZIF_RA_36POS)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(CON_ZIF_RA_36POS)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(BNC_112404)
+Added Component: Designator=J4(CON_HEADER_2)
+Added Component: Designator=J5(CON_TERMINAL_2)
+Added Component: Designator=J6(CON_HEADER_16)
+Added Component: Designator=J7(CON_HEADER_16)
+Added Component: Designator=J8(CON_HEADER_16)
+Added Component: Designator=J9(CON_HEADER_16)
+Added Pin To Net: NetName=INPUT_01 Pin=J1-1
+Added Pin To Net: NetName=INPUT_01 Pin=J6-1
+Added Net: Name=INPUT_01
+Added Pin To Net: NetName=INPUT_02 Pin=J1-2
+Added Pin To Net: NetName=INPUT_02 Pin=J6-2
+Added Net: Name=INPUT_02
+Added Pin To Net: NetName=INPUT_03 Pin=J1-3
+Added Pin To Net: NetName=INPUT_03 Pin=J6-3
+Added Net: Name=INPUT_03
+Added Pin To Net: NetName=INPUT_04 Pin=J1-4
+Added Pin To Net: NetName=INPUT_04 Pin=J6-4
+Added Net: Name=INPUT_04
+Added Pin To Net: NetName=INPUT_05 Pin=J1-5
+Added Pin To Net: NetName=INPUT_05 Pin=J6-5
+Added Net: Name=INPUT_05
+Added Pin To Net: NetName=INPUT_06 Pin=J1-6
+Added Pin To Net: NetName=INPUT_06 Pin=J6-6
+Added Net: Name=INPUT_06
+Added Pin To Net: NetName=INPUT_07 Pin=J1-7
+Added Pin To Net: NetName=INPUT_07 Pin=J6-7
+Added Net: Name=INPUT_07
+Added Pin To Net: NetName=INPUT_08 Pin=J1-8
+Added Pin To Net: NetName=INPUT_08 Pin=J6-8
+Added Net: Name=INPUT_08
+Added Pin To Net: NetName=INPUT_09 Pin=J1-10
+Added Pin To Net: NetName=INPUT_09 Pin=J6-9
+Added Net: Name=INPUT_09
+Added Pin To Net: NetName=INPUT_10 Pin=J1-11
+Added Pin To Net: NetName=INPUT_10 Pin=J6-10
+Added Net: Name=INPUT_10
+Added Pin To Net: NetName=INPUT_11 Pin=J1-12
+Added Pin To Net: NetName=INPUT_11 Pin=J6-11
+Added Net: Name=INPUT_11
+Added Pin To Net: NetName=INPUT_12 Pin=J1-13
+Added Pin To Net: NetName=INPUT_12 Pin=J6-12
+Added Net: Name=INPUT_12
+Added Pin To Net: NetName=INPUT_13 Pin=J1-14
+Added Pin To Net: NetName=INPUT_13 Pin=J6-13
+Added Net: Name=INPUT_13
+Added Pin To Net: NetName=INPUT_14 Pin=J1-15
+Added Pin To Net: NetName=INPUT_14 Pin=J6-14
+Added Net: Name=INPUT_14
+Added Pin To Net: NetName=INPUT_15 Pin=J1-16
+Added Pin To Net: NetName=INPUT_15 Pin=J6-15
+Added Net: Name=INPUT_15
+Added Pin To Net: NetName=INPUT_16 Pin=J1-17
+Added Pin To Net: NetName=INPUT_16 Pin=J6-16
+Added Net: Name=INPUT_16
+Added Pin To Net: NetName=INPUT_17 Pin=J1-20
+Added Pin To Net: NetName=INPUT_17 Pin=J8-1
+Added Net: Name=INPUT_17
+Added Pin To Net: NetName=INPUT_18 Pin=J1-21
+Added Pin To Net: NetName=INPUT_18 Pin=J8-2
+Added Net: Name=INPUT_18
+Added Pin To Net: NetName=INPUT_19 Pin=J1-22
+Added Pin To Net: NetName=INPUT_19 Pin=J8-3
+Added Net: Name=INPUT_19
+Added Pin To Net: NetName=INPUT_20 Pin=J1-23
+Added Pin To Net: NetName=INPUT_20 Pin=J8-4
+Added Net: Name=INPUT_20
+Added Pin To Net: NetName=INPUT_21 Pin=J1-24
+Added Pin To Net: NetName=INPUT_21 Pin=J8-5
+Added Net: Name=INPUT_21
+Added Pin To Net: NetName=INPUT_22 Pin=J1-25
+Added Pin To Net: NetName=INPUT_22 Pin=J8-6
+Added Net: Name=INPUT_22
+Added Pin To Net: NetName=INPUT_23 Pin=J1-26
+Added Pin To Net: NetName=INPUT_23 Pin=J8-7
+Added Net: Name=INPUT_23
+Added Pin To Net: NetName=INPUT_24 Pin=J1-27
+Added Pin To Net: NetName=INPUT_24 Pin=J8-8
+Added Net: Name=INPUT_24
+Added Pin To Net: NetName=INPUT_25 Pin=J1-29
+Added Pin To Net: NetName=INPUT_25 Pin=J8-9
+Added Net: Name=INPUT_25
+Added Pin To Net: NetName=INPUT_26 Pin=J1-30
+Added Pin To Net: NetName=INPUT_26 Pin=J8-10
+Added Net: Name=INPUT_26
+Added Pin To Net: NetName=INPUT_27 Pin=J1-31
+Added Pin To Net: NetName=INPUT_27 Pin=J8-11
+Added Net: Name=INPUT_27
+Added Pin To Net: NetName=INPUT_28 Pin=J1-32
+Added Pin To Net: NetName=INPUT_28 Pin=J8-12
+Added Net: Name=INPUT_28
+Added Pin To Net: NetName=INPUT_29 Pin=J1-33
+Added Pin To Net: NetName=INPUT_29 Pin=J8-13
+Added Net: Name=INPUT_29
+Added Pin To Net: NetName=INPUT_30 Pin=J1-34
+Added Pin To Net: NetName=INPUT_30 Pin=J8-14
+Added Net: Name=INPUT_30
+Added Pin To Net: NetName=INPUT_31 Pin=J1-35
+Added Pin To Net: NetName=INPUT_31 Pin=J8-15
+Added Net: Name=INPUT_31
+Added Pin To Net: NetName=INPUT_32 Pin=J1-36
+Added Pin To Net: NetName=INPUT_32 Pin=J8-16
+Added Net: Name=INPUT_32
+Added Pin To Net: NetName=INPUT_33 Pin=J2-1
+Added Pin To Net: NetName=INPUT_33 Pin=J7-1
+Added Net: Name=INPUT_33
+Added Pin To Net: NetName=INPUT_34 Pin=J2-2
+Added Pin To Net: NetName=INPUT_34 Pin=J7-2
+Added Net: Name=INPUT_34
+Added Pin To Net: NetName=INPUT_35 Pin=J2-3
+Added Pin To Net: NetName=INPUT_35 Pin=J7-3
+Added Net: Name=INPUT_35
+Added Pin To Net: NetName=INPUT_36 Pin=J2-4
+Added Pin To Net: NetName=INPUT_36 Pin=J7-4
+Added Net: Name=INPUT_36
+Added Pin To Net: NetName=INPUT_37 Pin=J2-5
+Added Pin To Net: NetName=INPUT_37 Pin=J7-5
+Added Net: Name=INPUT_37
+Added Pin To Net: NetName=INPUT_38 Pin=J2-6
+Added Pin To Net: NetName=INPUT_38 Pin=J7-6
+Added Net: Name=INPUT_38
+Added Pin To Net: NetName=INPUT_39 Pin=J2-7
+Added Pin To Net: NetName=INPUT_39 Pin=J7-7
+Added Net: Name=INPUT_39
+Added Pin To Net: NetName=INPUT_40 Pin=J2-8
+Added Pin To Net: NetName=INPUT_40 Pin=J7-8
+Added Net: Name=INPUT_40
+Added Pin To Net: NetName=INPUT_41 Pin=J2-10
+Added Pin To Net: NetName=INPUT_41 Pin=J7-9
+Added Net: Name=INPUT_41
+Added Pin To Net: NetName=INPUT_42 Pin=J2-11
+Added Pin To Net: NetName=INPUT_42 Pin=J7-10
+Added Net: Name=INPUT_42
+Added Pin To Net: NetName=INPUT_43 Pin=J2-12
+Added Pin To Net: NetName=INPUT_43 Pin=J7-11
+Added Net: Name=INPUT_43
+Added Pin To Net: NetName=INPUT_44 Pin=J2-13
+Added Pin To Net: NetName=INPUT_44 Pin=J7-12
+Added Net: Name=INPUT_44
+Added Pin To Net: NetName=INPUT_45 Pin=J2-14
+Added Pin To Net: NetName=INPUT_45 Pin=J7-13
+Added Net: Name=INPUT_45
+Added Pin To Net: NetName=INPUT_46 Pin=J2-15
+Added Pin To Net: NetName=INPUT_46 Pin=J7-14
+Added Net: Name=INPUT_46
+Added Pin To Net: NetName=INPUT_47 Pin=J2-16
+Added Pin To Net: NetName=INPUT_47 Pin=J7-15
+Added Net: Name=INPUT_47
+Added Pin To Net: NetName=INPUT_48 Pin=J2-17
+Added Pin To Net: NetName=INPUT_48 Pin=J7-16
+Added Net: Name=INPUT_48
+Added Pin To Net: NetName=INPUT_49 Pin=J2-20
+Added Pin To Net: NetName=INPUT_49 Pin=J9-1
+Added Net: Name=INPUT_49
+Added Pin To Net: NetName=INPUT_50 Pin=J2-21
+Added Pin To Net: NetName=INPUT_50 Pin=J9-2
+Added Net: Name=INPUT_50
+Added Pin To Net: NetName=INPUT_51 Pin=J2-22
+Added Pin To Net: NetName=INPUT_51 Pin=J9-3
+Added Net: Name=INPUT_51
+Added Pin To Net: NetName=INPUT_52 Pin=J2-23
+Added Pin To Net: NetName=INPUT_52 Pin=J9-4
+Added Net: Name=INPUT_52
+Added Pin To Net: NetName=INPUT_53 Pin=J2-24
+Added Pin To Net: NetName=INPUT_53 Pin=J9-5
+Added Net: Name=INPUT_53
+Added Pin To Net: NetName=INPUT_54 Pin=J2-25
+Added Pin To Net: NetName=INPUT_54 Pin=J9-6
+Added Net: Name=INPUT_54
+Added Pin To Net: NetName=INPUT_55 Pin=J2-26
+Added Pin To Net: NetName=INPUT_55 Pin=J9-7
+Added Net: Name=INPUT_55
+Added Pin To Net: NetName=INPUT_56 Pin=J2-27
+Added Pin To Net: NetName=INPUT_56 Pin=J9-8
+Added Net: Name=INPUT_56
+Added Pin To Net: NetName=INPUT_57 Pin=J2-29
+Added Pin To Net: NetName=INPUT_57 Pin=J9-9
+Added Net: Name=INPUT_57
+Added Pin To Net: NetName=INPUT_58 Pin=J2-30
+Added Pin To Net: NetName=INPUT_58 Pin=J9-10
+Added Net: Name=INPUT_58
+Added Pin To Net: NetName=INPUT_59 Pin=J2-31
+Added Pin To Net: NetName=INPUT_59 Pin=J9-11
+Added Net: Name=INPUT_59
+Added Pin To Net: NetName=INPUT_60 Pin=J2-32
+Added Pin To Net: NetName=INPUT_60 Pin=J9-12
+Added Net: Name=INPUT_60
+Added Pin To Net: NetName=INPUT_61 Pin=J2-33
+Added Pin To Net: NetName=INPUT_61 Pin=J9-13
+Added Net: Name=INPUT_61
+Added Pin To Net: NetName=INPUT_62 Pin=J2-34
+Added Pin To Net: NetName=INPUT_62 Pin=J9-14
+Added Net: Name=INPUT_62
+Added Pin To Net: NetName=INPUT_63 Pin=J2-35
+Added Pin To Net: NetName=INPUT_63 Pin=J9-15
+Added Net: Name=INPUT_63
+Added Pin To Net: NetName=INPUT_64 Pin=J2-36
+Added Pin To Net: NetName=INPUT_64 Pin=J9-16
+Added Net: Name=INPUT_64
+Added Pin To Net: NetName=INPUT_A Pin=J3-1
+Added Pin To Net: NetName=INPUT_A Pin=J4-1
+Added Pin To Net: NetName=INPUT_A Pin=J5-1
+Added Net: Name=INPUT_A
+Added Pin To Net: NetName=INPUT_B Pin=J3-2
+Added Pin To Net: NetName=INPUT_B Pin=J3-2
+Added Pin To Net: NetName=INPUT_B Pin=J3-2
+Added Pin To Net: NetName=INPUT_B Pin=J3-2
+Added Pin To Net: NetName=INPUT_B Pin=J4-2
+Added Pin To Net: NetName=INPUT_B Pin=J5-2
+Added Net: Name=INPUT_B
+Added Pin To Net: NetName=REF Pin=J1-9
+Added Pin To Net: NetName=REF Pin=J1-18
+Added Pin To Net: NetName=REF Pin=J1-19
+Added Pin To Net: NetName=REF Pin=J1-28
+Added Pin To Net: NetName=REF Pin=J2-9
+Added Pin To Net: NetName=REF Pin=J2-18
+Added Pin To Net: NetName=REF Pin=J2-19
+Added Pin To Net: NetName=REF Pin=J2-28
+Added Net: Name=REF
+Added Class: Name=Electrode_Breakout

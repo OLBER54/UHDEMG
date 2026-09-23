@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=GND Pin=J5_A-3
+Removed Pin From Net: NetName=GND Pin=J5_B-3
+Removed Pin From Net: NetName=GND Pin=J5_C-3
+Removed Pin From Net: NetName=GND Pin=J5_D-3
+Removed Pin From Net: NetName=GND Pin=J5_E-3
+Removed Pin From Net: NetName=GND Pin=J5_F-3
+Removed Pin From Net: NetName=GND Pin=J5_G-3
+Removed Pin From Net: NetName=GND Pin=J5_H-3
+Removed Member From Class: ClassName=A Member=J5_A
+Removed Member From Class: ClassName=B Member=J5_B
+Removed Member From Class: ClassName=C Member=J5_C
+Removed Member From Class: ClassName=D Member=J5_D
+Removed Member From Class: ClassName=E Member=J5_E
+Removed Member From Class: ClassName=F Member=J5_F
+Removed Member From Class: ClassName=G Member=J5_G
+Removed Member From Class: ClassName=H Member=J5_H
+Added Component: Designator=J5(SMTC-TSW-103-07-X-S)
+Added Pin To Net: NetName=GND Pin=J5-3
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=R11-2
+Added Net: Name=NetJ5_1
+Added Pin To Net: NetName=REF Pin=J5-2
+Added Pin To Net: NetName=REF Pin=J10_A-A5
+Added Pin To Net: NetName=REF Pin=J10_A-B5
+Added Pin To Net: NetName=REF Pin=J10_B-A5
+Added Pin To Net: NetName=REF Pin=J10_B-B5
+Added Pin To Net: NetName=REF Pin=J10_C-A5
+Added Pin To Net: NetName=REF Pin=J10_C-B5
+Added Pin To Net: NetName=REF Pin=J10_D-A5
+Added Pin To Net: NetName=REF Pin=J10_D-B5
+Added Pin To Net: NetName=REF Pin=J10_E-A5
+Added Pin To Net: NetName=REF Pin=J10_E-B5
+Added Pin To Net: NetName=REF Pin=J10_F-A5
+Added Pin To Net: NetName=REF Pin=J10_F-B5
+Added Pin To Net: NetName=REF Pin=J10_G-A5
+Added Pin To Net: NetName=REF Pin=J10_G-B5
+Added Pin To Net: NetName=REF Pin=J10_H-A5
+Added Pin To Net: NetName=REF Pin=J10_H-B5
+Added Net: Name=REF
+Added Member To Class: ClassName=U_Onboard_IO Member=Component J5 TSW-103-07-F-S

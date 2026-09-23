@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=
+Name=Microneedle_Patch_Mirrored_V2.OutJob
 Description=
 TargetOutputMedium=PCB Fabrication Output
 VariantName=[No Variations]
@@ -593,7 +593,7 @@ Configuration16_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLaye
 [PublishSettings]
 OutputFilePath1=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged1=1
-OutputBasePath1=Project Outputs for Free Documents
+OutputBasePath1=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia1==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue1==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer1=[Output Custom]
@@ -618,9 +618,9 @@ ShowComponentParameters1=1
 GlobalBookmarks1=0
 PDFACompliance1=Disabled
 PDFVersion1=Default
-OutputFilePath2=Project Outputs for Free Documents\REV_Project_Revision_2026-08-10\
+OutputFilePath2=C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch_Mirrored\Project Outputs for Microneedle_Patch_Mirrored\REV_1.030\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for Free Documents
+OutputBasePath2=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia2==REV_+Project_Revision
 OutputPathMediaValue2==REV_+Project_Revision
 OutputPathOutputer2=[Output Custom]
@@ -633,7 +633,7 @@ OutputFileNameSpecial2=
 OpenOutput2=0
 OutputFilePath3=D:\PCBs\IRM_Temp_Probe\02 - ANALOG MEASUREMENT UNIT\01 - SCHEMAS ET PCB\99 - WORKING COPY\Project Outputs for ANALOG_MEASUREMENT_UNIT\REV_1.000_2018-10-17\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for Free Documents
+OutputBasePath3=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia3==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue3==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer3=[Output Custom]
@@ -646,7 +646,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for Free Documents
+OutputBasePath4=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia4==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue4==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer4=[Output Custom]
@@ -659,7 +659,7 @@ OutputFileNameSpecial4=
 OpenOutput4=0
 OutputFilePath5=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\REV_1.000_2018-10-11\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for Free Documents
+OutputBasePath5=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia5==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue5==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer5=[Output Custom]
@@ -672,7 +672,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=D:\PCBs\IRM_Temp_Probe\02 - ANALOG MEASUREMENT UNIT\01 - SCHEMAS ET PCB\99 - WORKING COPY\Project Outputs for ANALOG_MEASUREMENT_UNIT\REV_1.000_2018-10-17\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for Free Documents
+OutputBasePath6=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia6==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue6==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer6=[Output Custom]
@@ -685,7 +685,7 @@ OutputFileNameSpecial6=
 OpenOutput6=0
 OutputFilePath7=D:\PCBs\IRM_Temp_Probe\02 - ANALOG MEASUREMENT UNIT\01 - SCHEMAS ET PCB\99 - WORKING COPY\Project Outputs for ANALOG_MEASUREMENT_UNIT\REV_1.000_2018-10-17\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for Free Documents
+OutputBasePath7=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia7==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue7==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer7=[Output Custom]
@@ -698,7 +698,7 @@ OutputFileNameSpecial7=
 OpenOutput7=0
 OutputFilePath8=D:\99 - WORKING COPY - Copie\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for Free Documents
+OutputBasePath8=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia8==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue8==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer8=[Output Custom]
@@ -725,7 +725,7 @@ PDFACompliance8=Disabled
 PDFVersion8=Default
 OutputFilePath9=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\REV_1.000_2018-10-11\
 ReleaseManaged9=1
-OutputBasePath9=Project Outputs for Free Documents
+OutputBasePath9=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia9==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue9==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer9=[Output Custom]
@@ -738,7 +738,7 @@ OutputFileNameSpecial9=
 OpenOutput9=0
 OutputFilePath10=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged10=1
-OutputBasePath10=Project Outputs for Free Documents
+OutputBasePath10=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia10==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue10==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer10=[Output Custom]
@@ -751,7 +751,7 @@ OutputFileNameSpecial10=
 OpenOutput10=0
 OutputFilePath11=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged11=1
-OutputBasePath11=Project Outputs for Free Documents
+OutputBasePath11=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia11==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue11==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer11=[Output Custom]
@@ -778,7 +778,7 @@ PDFACompliance11=Disabled
 PDFVersion11=Default
 OutputFilePath12=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 ReleaseManaged12=1
-OutputBasePath12=Project Outputs for Free Documents
+OutputBasePath12=Project Outputs for Microneedle_Patch_Mirrored
 OutputPathMedia12==REV_+Project_Revision+_+CurrentDate
 OutputPathMediaValue12==REV_+Project_Revision+_+CurrentDate
 OutputPathOutputer12=[Output Custom]
@@ -793,7 +793,7 @@ OpenOutput12=0
 [GeneratedFilesSettings]
 RelativeOutputPath1=D:\99 - WORKING COPY - Copie\Project Outputs for ANALOG_MEASUREMENT_UNIT\ANALOG_MEASUREMENT_UNIT_REV_1.000_2018-10-11\
 OpenOutputs1=0
-RelativeOutputPath2=Project Outputs for Free Documents\REV_Project_Revision_2026-08-10\
+RelativeOutputPath2=C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch_Mirrored\Project Outputs for Microneedle_Patch_Mirrored\REV_1.030\
 OpenOutputs2=0
 AddToProject2=0
 TimestampFolder2=0

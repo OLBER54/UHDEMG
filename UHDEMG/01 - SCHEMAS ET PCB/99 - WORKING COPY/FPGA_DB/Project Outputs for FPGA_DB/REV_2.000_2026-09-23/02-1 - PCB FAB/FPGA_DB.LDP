@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\FPGA_DB\FPGA_DB.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=fpga_db-roundholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=fpga_db-slotholes.txt|DrillLayers=gtl,gp1,gp2,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=fpga_db-rectholes.txt|DrillLayers=gtl,gp1,gp2,gbl

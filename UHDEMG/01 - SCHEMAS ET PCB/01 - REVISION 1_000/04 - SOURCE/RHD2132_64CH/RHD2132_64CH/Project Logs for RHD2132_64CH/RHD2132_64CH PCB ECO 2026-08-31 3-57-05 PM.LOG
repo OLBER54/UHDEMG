@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MOSI_P Pin=J1-A10
+Removed Pin From Net: NetName=MOSI_N Pin=J1-A11
+Added Pin To Net: NetName=MOSI_N Pin=J1-A10
+Added Pin To Net: NetName=MOSI_P Pin=J1-A11

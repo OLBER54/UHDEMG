@@ -1,0 +1,7 @@
+Change Physical Footprint: Designator=J1 Old Footprint=CON_ZIF_RA_36POS New Footprint=CON_ZIF_RA_36POS
+Change Physical Footprint: Designator=J2 Old Footprint=CON_ZIF_RA_36POS New Footprint=CON_ZIF_RA_36POS
+Change Physical Footprint: Designator=J6 Old Footprint=CON_HEADER_16 New Footprint=CON_HEADER_16
+Change Physical Footprint: Designator=J7 Old Footprint=CON_HEADER_16 New Footprint=CON_HEADER_16
+Change Physical Footprint: Designator=J8 Old Footprint=CON_HEADER_16 New Footprint=CON_HEADER_16
+Change Physical Footprint: Designator=J9 Old Footprint=CON_HEADER_16 New Footprint=CON_HEADER_16
+Change Physical Footprint: Designator=TP1 Old Footprint=TP_Small_M2 New Footprint=TP_Small_M2

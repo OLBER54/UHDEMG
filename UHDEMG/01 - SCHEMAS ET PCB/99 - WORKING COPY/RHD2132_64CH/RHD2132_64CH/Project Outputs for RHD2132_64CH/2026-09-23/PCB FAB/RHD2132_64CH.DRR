@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: RHD2132_64CH.PcbDoc   2026-09-23  2:06:09 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : RHD2132_64CH-RoundHoles.TXT
+ASCII SlotHoles File : RHD2132_64CH-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.203mm)                                            Round             256       PTH        14.23inch (361.47mm)
+T2      22mil (0.551mm)                                           Slot              4         PTH        1.68inch (42.79mm)
+T3      94mil (2.4mm)                                             Round             2         PTH        0.75inch (19.05mm)
+T4      27mil (0.676mm)                                           Round             1         NPTH       0.00inch (0.00mm)
+T5      34mil (0.874mm)                                           Slot              1         NPTH       0.01inch (0.32mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              264
+
+Total Processing Time (hh:mm:ss) : 00:00:00

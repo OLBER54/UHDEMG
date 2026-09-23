@@ -1,9 +1,12 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\FPGA_DB\FPGA_DB.PcbDoc
-Date     : 2026-09-03
-Time     : 2:29:00 PM
+Date     : 2026-09-23
+Time     : 1:38:59 PM
 
 Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=8mil) (IsStitchingVia and InNet('GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -33,10 +36,7 @@ Rule Violations :0
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=4mil) (Air Gap=4mil) (Entries=4) (All)
 Rule Violations :0
 
-Processing Rule : Minimum Annular Ring (Minimum=4mil) (InComponentClass('USB'))
-Rule Violations :0
-
-Processing Rule : Minimum Annular Ring (Minimum=6mil) (All)
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
 Rule Violations :0
 
 Processing Rule : Hole Size Constraint (Min=7.874mil) (Max=248.031mil) (All)
@@ -45,10 +45,7 @@ Rule Violations :0
 Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
 Rule Violations :0
 
-Processing Rule : Minimum Solder Mask Sliver (Gap=6mil) (All),(All)
-Rule Violations :0
-
-Processing Rule : Minimum Solder Mask Sliver (Gap=5mil) (InComponentClass('USB')),(InComponentClass('USB'))
+Processing Rule : Minimum Solder Mask Sliver (Gap=3.937mil) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
@@ -72,4 +69,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:02

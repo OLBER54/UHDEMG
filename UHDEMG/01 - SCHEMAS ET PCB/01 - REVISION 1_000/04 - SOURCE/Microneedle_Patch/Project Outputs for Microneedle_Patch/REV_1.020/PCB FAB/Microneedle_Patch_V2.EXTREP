@@ -1,0 +1,22 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Microneedle_Patch_V2.GBR   2026-08-10  6:10:24 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Board Layer Stack Top Coverlay          
+.GTL                Top                                     
+.GBL                Bottom                                  
+.GBS                Board Layer Stack Bottom Coverlay       
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM18               Stiffener                               
+.GM9                Manufacturing Notes                     
+.GM5                Board Outline                           
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------

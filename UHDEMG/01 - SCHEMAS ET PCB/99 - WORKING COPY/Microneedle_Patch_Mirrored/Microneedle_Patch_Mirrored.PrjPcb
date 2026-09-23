@@ -68,7 +68,7 @@ GenerateClassCluster=0
 DocumentUniqueId=TDNYJMDZ
 
 [Document2]
-DocumentPath=..\..\..\..\Microneedle_Patch\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch\Main.SchDoc
+DocumentPath=Microneedle_Patch_Mirrored_V2.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -82,10 +82,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FAPMBNMV
+DocumentUniqueId=
 
 [Document3]
-DocumentPath=Microneedle_Patch_Mirrored_V2.OutJob
+DocumentPath=..\Microneedle_Patch\Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -114,36 +114,36 @@ DocumentPath=Project Outputs for Microneedle_Patch_Mirrored\Design Rule Check - 
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Project_Stencil_Top_Thickness
-Value=0.1 MM
+Name=Project_Date
+Value=2026-05-01
 
 [Parameter2]
-Name=Project_Stencil_Bot_Thickness
-Value=0.1 MM
-
-[Parameter3]
-Name=Project_Revision
-Value=1.030
-
-[Parameter4]
-Name=Project_Name
-Value=Microneedle Electrode Patch
-
-[Parameter5]
-Name=Project_Group
-Value=SBioML
-
-[Parameter6]
-Name=Project_Global
-Value=UHD-EMG
-
-[Parameter7]
 Name=Project_Designer1
 Value=Olivier Bergeron
 
+[Parameter3]
+Name=Project_Global
+Value=UHD-EMG
+
+[Parameter4]
+Name=Project_Group
+Value=SBioML
+
+[Parameter5]
+Name=Project_Name
+Value=Microneedle Electrode Patch
+
+[Parameter6]
+Name=Project_Revision
+Value=1.030
+
+[Parameter7]
+Name=Project_Stencil_Bot_Thickness
+Value=0.1 MM
+
 [Parameter8]
-Name=Project_Date
-Value=2026-05-01
+Name=Project_Stencil_Top_Thickness
+Value=0.1 MM
 
 [Configuration1]
 Name=Sources

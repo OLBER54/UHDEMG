@@ -1,0 +1,92 @@
+Change Component Designator: OldDesignator=E1 NewDesignator=E?
+Change Component Designator: OldDesignator=E2 NewDesignator=E?
+Change Component Designator: OldDesignator=E3 NewDesignator=E?
+Change Component Designator: OldDesignator=E4 NewDesignator=E?
+Change Component Designator: OldDesignator=E5 NewDesignator=E?
+Change Component Designator: OldDesignator=E6 NewDesignator=E?
+Change Component Designator: OldDesignator=E7 NewDesignator=E?
+Change Component Designator: OldDesignator=E8 NewDesignator=E?
+Change Component Designator: OldDesignator=E9 NewDesignator=E?
+Change Component Designator: OldDesignator=E10 NewDesignator=E?
+Change Component Designator: OldDesignator=E11 NewDesignator=E?
+Change Component Designator: OldDesignator=E12 NewDesignator=E?
+Change Component Designator: OldDesignator=E13 NewDesignator=E?
+Change Component Designator: OldDesignator=E14 NewDesignator=E?
+Change Component Designator: OldDesignator=E15 NewDesignator=E?
+Change Component Designator: OldDesignator=E16 NewDesignator=E?
+Change Component Designator: OldDesignator=E17 NewDesignator=E?
+Change Component Designator: OldDesignator=E18 NewDesignator=E?
+Change Component Designator: OldDesignator=E19 NewDesignator=E?
+Change Component Designator: OldDesignator=E20 NewDesignator=E?
+Change Component Designator: OldDesignator=E21 NewDesignator=E?
+Change Component Designator: OldDesignator=E22 NewDesignator=E?
+Change Component Designator: OldDesignator=E23 NewDesignator=E?
+Change Component Designator: OldDesignator=E24 NewDesignator=E?
+Change Component Designator: OldDesignator=E25 NewDesignator=E?
+Change Component Designator: OldDesignator=E26 NewDesignator=E?
+Change Component Designator: OldDesignator=E27 NewDesignator=E?
+Change Component Designator: OldDesignator=E28 NewDesignator=E?
+Change Component Designator: OldDesignator=E29 NewDesignator=E?
+Change Component Designator: OldDesignator=E30 NewDesignator=E?
+Change Component Designator: OldDesignator=E31 NewDesignator=E?
+Change Component Designator: OldDesignator=E32 NewDesignator=E?
+Added Component: Designator=J1(Fingers)
+Add component (AddParameter): Name = "Assembly Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Assembly Type"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CreatedBy/Date"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GRAMS Lib Spec"; Value = "2.7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "HelpURL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Magnetic Material"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number #2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Polarized"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Max"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VerifiedBy"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Input1 Pin=J1-1
+Added Pin To Net: NetName=Input2 Pin=J1-2
+Added Pin To Net: NetName=Input3 Pin=J1-3
+Added Pin To Net: NetName=Input4 Pin=J1-4
+Added Pin To Net: NetName=Input5 Pin=J1-5
+Added Pin To Net: NetName=Input6 Pin=J1-6
+Added Pin To Net: NetName=Input7 Pin=J1-7
+Added Pin To Net: NetName=Input8 Pin=J1-8
+Added Pin To Net: NetName=GND Pin=J1-9
+Added Pin To Net: NetName=Input9 Pin=J1-10
+Added Pin To Net: NetName=Input10 Pin=J1-11
+Added Pin To Net: NetName=Input11 Pin=J1-12
+Added Pin To Net: NetName=Input12 Pin=J1-13
+Added Pin To Net: NetName=Input13 Pin=J1-14
+Added Pin To Net: NetName=Input14 Pin=J1-15
+Added Pin To Net: NetName=Input15 Pin=J1-16
+Added Pin To Net: NetName=Input16 Pin=J1-17
+Added Pin To Net: NetName=GND Pin=J1-18
+Added Pin To Net: NetName=GND Pin=J1-19
+Added Pin To Net: NetName=Input17 Pin=J1-20
+Added Pin To Net: NetName=Input18 Pin=J1-21
+Added Pin To Net: NetName=Input19 Pin=J1-22
+Added Pin To Net: NetName=Input20 Pin=J1-23
+Added Pin To Net: NetName=Input21 Pin=J1-24
+Added Pin To Net: NetName=Input22 Pin=J1-25
+Added Pin To Net: NetName=Input23 Pin=J1-26
+Added Pin To Net: NetName=Input24 Pin=J1-27
+Added Pin To Net: NetName=GND Pin=J1-28
+Added Pin To Net: NetName=Input25 Pin=J1-29
+Added Pin To Net: NetName=Input26 Pin=J1-30
+Added Pin To Net: NetName=Input27 Pin=J1-31
+Added Pin To Net: NetName=Input28 Pin=J1-32
+Added Pin To Net: NetName=Input29 Pin=J1-33
+Added Pin To Net: NetName=Input30 Pin=J1-34
+Added Pin To Net: NetName=Input31 Pin=J1-35
+Added Pin To Net: NetName=Input32 Pin=J1-36
+Added Member To Class: ClassName=Main Member=Component J1 3-2492104-6

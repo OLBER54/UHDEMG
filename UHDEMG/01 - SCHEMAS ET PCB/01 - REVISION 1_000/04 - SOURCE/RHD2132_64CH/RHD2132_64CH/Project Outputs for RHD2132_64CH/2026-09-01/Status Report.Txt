@@ -1,0 +1,13 @@
+Output: PCB NC Drill Files
+Type  : NC Drill
+From  : PCB Document [RHD2132_64CH.PcbDoc]
+   Generated File[RHD2132_64CH-RoundHoles.TXT]
+   Generated File[RHD2132_64CH-SlotHoles.TXT]
+   Generated File[RHD2132_64CH.LDP]
+   Generated File[RHD2132_64CH.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:53:12 AM On 2026-09-01

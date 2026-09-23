@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=MISO2_A_N Pin=U2_A-5
+Removed Pin From Net: NetName=MISO2_A_P Pin=U2_A-6
+Removed Pin From Net: NetName=MISO2_B_N Pin=U2_B-5
+Removed Pin From Net: NetName=MISO2_B_P Pin=U2_B-6
+Removed Pin From Net: NetName=MISO2_C_N Pin=U2_C-5
+Removed Pin From Net: NetName=MISO2_C_P Pin=U2_C-6
+Removed Pin From Net: NetName=MISO2_D_N Pin=U2_D-5
+Removed Pin From Net: NetName=MISO2_D_P Pin=U2_D-6
+Removed Pin From Net: NetName=MISO2_E_N Pin=U2_E-5
+Removed Pin From Net: NetName=MISO2_E_P Pin=U2_E-6
+Removed Pin From Net: NetName=MISO2_F_N Pin=U2_F-5
+Removed Pin From Net: NetName=MISO2_F_P Pin=U2_F-6
+Removed Pin From Net: NetName=MISO2_G_N Pin=U2_G-5
+Removed Pin From Net: NetName=MISO2_G_P Pin=U2_G-6
+Removed Pin From Net: NetName=MISO2_H_N Pin=U2_H-5
+Removed Pin From Net: NetName=MISO2_H_P Pin=U2_H-6
+Added Pin To Net: NetName=MISO2_A_N Pin=U2_A-1
+Added Pin To Net: NetName=MISO2_A_P Pin=U2_A-2
+Added Pin To Net: NetName=MISO2_B_N Pin=U2_B-1
+Added Pin To Net: NetName=MISO2_B_P Pin=U2_B-2
+Added Pin To Net: NetName=MISO2_C_N Pin=U2_C-1
+Added Pin To Net: NetName=MISO2_C_P Pin=U2_C-2
+Added Pin To Net: NetName=MISO2_D_N Pin=U2_D-1
+Added Pin To Net: NetName=MISO2_D_P Pin=U2_D-2
+Added Pin To Net: NetName=MISO2_E_N Pin=U2_E-1
+Added Pin To Net: NetName=MISO2_E_P Pin=U2_E-2
+Added Pin To Net: NetName=MISO2_F_N Pin=U2_F-1
+Added Pin To Net: NetName=MISO2_F_P Pin=U2_F-2
+Added Pin To Net: NetName=MISO2_G_N Pin=U2_G-1
+Added Pin To Net: NetName=MISO2_G_P Pin=U2_G-2
+Added Pin To Net: NetName=MISO2_H_N Pin=U2_H-1
+Added Pin To Net: NetName=MISO2_H_P Pin=U2_H-2
+Added Member To Class: ClassName=A Member=Component R7_A (R7) 10K0
+Added Member To Class: ClassName=B Member=Component R7_B (R7) 10K0
+Added Member To Class: ClassName=C Member=Component R7_C (R7) 10K0
+Added Member To Class: ClassName=D Member=Component R7_D (R7) 10K0
+Added Member To Class: ClassName=E Member=Component R7_E (R7) 10K0
+Added Member To Class: ClassName=F Member=Component R7_F (R7) 10K0
+Added Member To Class: ClassName=G Member=Component R7_G (R7) 10K0
+Added Member To Class: ClassName=H Member=Component R7_H (R7) 10K0
+Added Member To Class: ClassName=A Member=Component R8_A (R8) 100R
+Added Member To Class: ClassName=B Member=Component R8_B (R8) 100R
+Added Member To Class: ClassName=C Member=Component R8_C (R8) 100R
+Added Member To Class: ClassName=D Member=Component R8_D (R8) 100R
+Added Member To Class: ClassName=E Member=Component R8_E (R8) 100R
+Added Member To Class: ClassName=F Member=Component R8_F (R8) 100R
+Added Member To Class: ClassName=G Member=Component R8_G (R8) 100R
+Added Member To Class: ClassName=H Member=Component R8_H (R8) 100R
+Added Member To Class: ClassName=A Member=Component R9_A (R9) 100R
+Added Member To Class: ClassName=B Member=Component R9_B (R9) 100R
+Added Member To Class: ClassName=C Member=Component R9_C (R9) 100R
+Added Member To Class: ClassName=D Member=Component R9_D (R9) 100R
+Added Member To Class: ClassName=E Member=Component R9_E (R9) 100R
+Added Member To Class: ClassName=F Member=Component R9_F (R9) 100R
+Added Member To Class: ClassName=G Member=Component R9_G (R9) 100R
+Added Member To Class: ClassName=H Member=Component R9_H (R9) 100R

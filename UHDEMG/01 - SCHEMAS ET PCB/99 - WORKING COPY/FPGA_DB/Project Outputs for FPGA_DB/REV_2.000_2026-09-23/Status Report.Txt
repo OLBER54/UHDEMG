@@ -1,0 +1,25 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 2:03:04 PM On 2026-09-23
+
+Output: Source Files
+Type  : Copy Files
+From  : Project [FPGA_DB.PrjPcb]
+   Generated File[Title_Page.SchDoc]
+   Generated File[FPGA.SchDoc]
+   Generated File[Onboard_IO.SchDoc]
+   Generated File[INTAN_Interface_Top.SchDoc]
+   Generated File[INTAN_Interface.SchDoc]
+   Generated File[Onboard_IO.Harness]
+   Generated File[FPGA.Harness]
+   Generated File[INTAN_Interface_Top.Harness]
+   Generated File[FPGA_DB.PcbDoc]
+   Generated File[FPGA_DB.OutJob]
+   Generated File[ActiveBOM.VirtualBOM]
+   Generated File[FPGA_DB.PrjPcb]
+
+
+Files Generated   : 12
+Documents Printed : 0
+
+Finished Output Generation At 2:03:04 PM On 2026-09-23

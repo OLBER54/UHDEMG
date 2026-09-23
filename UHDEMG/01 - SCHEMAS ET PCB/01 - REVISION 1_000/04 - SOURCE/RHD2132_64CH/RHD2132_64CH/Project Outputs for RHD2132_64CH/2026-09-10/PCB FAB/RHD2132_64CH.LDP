@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\RHD2132_64CH\RHD2132_64CH\RHD2132_64CH.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=rhd2132_64ch-roundholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=rhd2132_64ch-slotholes.txt|DrillLayers=gtl,gp1,g1,g2,gp2,gbl

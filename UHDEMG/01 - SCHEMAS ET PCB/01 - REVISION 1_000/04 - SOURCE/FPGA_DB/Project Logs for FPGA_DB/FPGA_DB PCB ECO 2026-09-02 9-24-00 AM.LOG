@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=MOSI_A_N Pin=R7_A-1
+Removed Pin From Net: NetName=MOSI_A_P Pin=R7_A-2
+Removed Pin From Net: NetName=MOSI_B_N Pin=R7_B-1
+Removed Pin From Net: NetName=MOSI_B_P Pin=R7_B-2
+Removed Pin From Net: NetName=MOSI_C_N Pin=R7_C-1
+Removed Pin From Net: NetName=MOSI_C_P Pin=R7_C-2
+Removed Pin From Net: NetName=MOSI_D_N Pin=R7_D-1
+Removed Pin From Net: NetName=MOSI_D_P Pin=R7_D-2
+Removed Pin From Net: NetName=MOSI_E_N Pin=R7_E-1
+Removed Pin From Net: NetName=MOSI_E_P Pin=R7_E-2
+Removed Pin From Net: NetName=MOSI_F_N Pin=R7_F-1
+Removed Pin From Net: NetName=MOSI_F_P Pin=R7_F-2
+Removed Pin From Net: NetName=MOSI_G_N Pin=R7_G-1
+Removed Pin From Net: NetName=MOSI_G_P Pin=R7_G-2
+Removed Pin From Net: NetName=MOSI_H_N Pin=R7_H-1
+Removed Pin From Net: NetName=MOSI_H_P Pin=R7_H-2
+Removed Pin From Net: NetName=SCLK_A_N Pin=R8_A-1
+Removed Pin From Net: NetName=SCLK_A_P Pin=R8_A-2
+Removed Pin From Net: NetName=SCLK_B_N Pin=R8_B-1
+Removed Pin From Net: NetName=SCLK_B_P Pin=R8_B-2
+Removed Pin From Net: NetName=SCLK_C_N Pin=R8_C-1
+Removed Pin From Net: NetName=SCLK_C_P Pin=R8_C-2
+Removed Pin From Net: NetName=SCLK_D_N Pin=R8_D-1
+Removed Pin From Net: NetName=SCLK_D_P Pin=R8_D-2
+Removed Pin From Net: NetName=SCLK_E_N Pin=R8_E-1
+Removed Pin From Net: NetName=SCLK_E_P Pin=R8_E-2
+Removed Pin From Net: NetName=SCLK_F_N Pin=R8_F-1
+Removed Pin From Net: NetName=SCLK_F_P Pin=R8_F-2
+Removed Pin From Net: NetName=SCLK_G_N Pin=R8_G-1
+Removed Pin From Net: NetName=SCLK_G_P Pin=R8_G-2
+Removed Pin From Net: NetName=SCLK_H_N Pin=R8_H-1
+Removed Pin From Net: NetName=SCLK_H_P Pin=R8_H-2
+Removed Pin From Net: NetName=C\S\_A_N Pin=R9_A-1
+Removed Pin From Net: NetName=C\S\_A_P Pin=R9_A-2
+Removed Pin From Net: NetName=C\S\_B_N Pin=R9_B-1
+Removed Pin From Net: NetName=C\S\_B_P Pin=R9_B-2
+Removed Pin From Net: NetName=C\S\_C_N Pin=R9_C-1
+Removed Pin From Net: NetName=C\S\_C_P Pin=R9_C-2
+Removed Pin From Net: NetName=C\S\_D_N Pin=R9_D-1
+Removed Pin From Net: NetName=C\S\_D_P Pin=R9_D-2
+Removed Pin From Net: NetName=C\S\_E_N Pin=R9_E-1
+Removed Pin From Net: NetName=C\S\_E_P Pin=R9_E-2
+Removed Pin From Net: NetName=C\S\_F_N Pin=R9_F-1
+Removed Pin From Net: NetName=C\S\_F_P Pin=R9_F-2
+Removed Pin From Net: NetName=C\S\_G_N Pin=R9_G-1
+Removed Pin From Net: NetName=C\S\_G_P Pin=R9_G-2
+Removed Pin From Net: NetName=C\S\_H_N Pin=R9_H-1
+Removed Pin From Net: NetName=C\S\_H_P Pin=R9_H-2
+Removed Member From Class: ClassName=A Member=R10_A
+Removed Member From Class: ClassName=B Member=R10_B
+Removed Member From Class: ClassName=C Member=R10_C
+Removed Member From Class: ClassName=D Member=R10_D
+Removed Member From Class: ClassName=E Member=R10_E
+Removed Member From Class: ClassName=F Member=R10_F
+Removed Member From Class: ClassName=G Member=R10_G
+Removed Member From Class: ClassName=H Member=R10_H
+Removed Member From Class: ClassName=A Member=R11_A
+Removed Member From Class: ClassName=B Member=R11_B
+Removed Member From Class: ClassName=C Member=R11_C
+Removed Member From Class: ClassName=D Member=R11_D
+Removed Member From Class: ClassName=E Member=R11_E
+Removed Member From Class: ClassName=F Member=R11_F
+Removed Member From Class: ClassName=G Member=R11_G
+Removed Member From Class: ClassName=H Member=R11_H
+Removed Member From Class: ClassName=A Member=R12_A
+Removed Member From Class: ClassName=B Member=R12_B
+Removed Member From Class: ClassName=C Member=R12_C
+Removed Member From Class: ClassName=D Member=R12_D
+Removed Member From Class: ClassName=E Member=R12_E
+Removed Member From Class: ClassName=F Member=R12_F
+Removed Member From Class: ClassName=G Member=R12_G
+Removed Member From Class: ClassName=H Member=R12_H
+Change Component Designator: OldDesignator=R10_A NewDesignator=R7_A
+Change Component Designator: OldDesignator=R10_B NewDesignator=R7_B
+Change Component Designator: OldDesignator=R10_C NewDesignator=R7_C
+Change Component Designator: OldDesignator=R10_D NewDesignator=R7_D
+Change Component Designator: OldDesignator=R10_E NewDesignator=R7_E
+Change Component Designator: OldDesignator=R10_F NewDesignator=R7_F
+Change Component Designator: OldDesignator=R10_G NewDesignator=R7_G
+Change Component Designator: OldDesignator=R10_H NewDesignator=R7_H
+Change Component Designator: OldDesignator=R11_A NewDesignator=R8_A
+Change Component Designator: OldDesignator=R11_B NewDesignator=R8_B
+Change Component Designator: OldDesignator=R11_C NewDesignator=R8_C
+Change Component Designator: OldDesignator=R11_D NewDesignator=R8_D
+Change Component Designator: OldDesignator=R11_E NewDesignator=R8_E
+Change Component Designator: OldDesignator=R11_F NewDesignator=R8_F
+Change Component Designator: OldDesignator=R11_G NewDesignator=R8_G
+Change Component Designator: OldDesignator=R11_H NewDesignator=R8_H
+Change Component Designator: OldDesignator=R12_A NewDesignator=R9_A
+Change Component Designator: OldDesignator=R12_B NewDesignator=R9_B
+Change Component Designator: OldDesignator=R12_C NewDesignator=R9_C
+Change Component Designator: OldDesignator=R12_D NewDesignator=R9_D
+Change Component Designator: OldDesignator=R12_E NewDesignator=R9_E
+Change Component Designator: OldDesignator=R12_F NewDesignator=R9_F
+Change Component Designator: OldDesignator=R12_G NewDesignator=R9_G
+Change Component Designator: OldDesignator=R12_H NewDesignator=R9_H

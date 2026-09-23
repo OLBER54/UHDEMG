@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Microneedle_Patch\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch\Microneedle_Patch_V2.PcbDoc
-Date     : 2026-08-10
-Time     : 5:36:06 PM
+PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\Microneedle_Patch\Microneedle_Patch_V2.PcbDoc
+Date     : 2026-09-21
+Time     : 11:12:18 AM
 
 Processing Rule : Clearance Constraint (Gap=0.203mm) (All),(All)
 Rule Violations :0
@@ -51,4 +51,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01

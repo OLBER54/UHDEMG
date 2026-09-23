@@ -1,0 +1,25 @@
+Microneedle Patch:
+PCB Type: Flexible PCB
+Board Type: Panel by supplier
+Different design in panel: 1
+
+Size: 28.8 mm X 93 mm
+Quantity: 16 pcs
+Layers: 2 Layers
+
+Material: Polymide Flex
+Thickness: 0.18 mm
+Min track/spacing: 0.06 mm
+Min hole size: 0.15/0.35 mm
+Solder mask: Black coverlay
+Silkscreen: White
+Edge Connector: Yes
+Stiffener Both sides
+TOP PI and BOT PI: 0.125 mm
+Surface finish: ENEPIG
+Thickness of ENEPIG: Ni: 200 U" Pd: 4 U" Au: 4 U"
+Finished Copper: 0.5 oz Cu (18 um)
+E-Test: 100%
+3M/Tesa tape: without
+Conductive double sided tape: without
+EMI Shielding film: without
