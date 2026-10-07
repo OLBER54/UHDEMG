@@ -1,6 +1,6 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\UHDEMG\01 - SCHEMAS ET PCB\99 - WORKING COPY\FPGA_DB\FPGA_DB.PcbDoc
-Date     : 2026-09-23
+Date     : 2026-09-30
 Time     : 1:38:59 PM
 
 Processing Rule : Clearance Constraint (Gap=4mil) (All),(All)
@@ -69,4 +69,4 @@ Rule Violations :0
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01

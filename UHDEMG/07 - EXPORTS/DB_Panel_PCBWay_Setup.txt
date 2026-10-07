@@ -8,8 +8,8 @@ Layers: 4 Layers
 Material: FR-4
 FR4-TG: S1000H TG150
 Thickness: 1.6 mm
-Min track/spacing: 5/5 mil
-Min hole size: 0.3 mm
+Min track/spacing: 6/6 mil
+Min hole size: 0.2 mm
 Solder mask: Green
 Silkscreen: White
 UV printing multi-color: None
