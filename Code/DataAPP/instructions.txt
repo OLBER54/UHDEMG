@@ -1,0 +1,3 @@
+**Bold text**
+<u>Underlined text</u>
+**<u>Bold and underlined</u>**

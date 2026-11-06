@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(led_pattern_tests LANGUAGES CXX)
+enable_testing()
+add_executable(led_pattern_test led_pattern_test.cpp)
+target_compile_features(led_pattern_test PRIVATE cxx_std_14)
+add_test(NAME led_patterns COMMAND led_pattern_test)

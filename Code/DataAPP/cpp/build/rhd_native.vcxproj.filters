@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\src\bindings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\src\rhd_acquisition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\third_party\intan\abstractrhxcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\third_party\intan\rhxcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\third_party\intan\rhxdatablock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\third_party\intan\rhxregisters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F2041D92-C277-39F1-94EB-E8FF78C590BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

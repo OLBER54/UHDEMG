@@ -1,0 +1,19 @@
+Start testing: Nov 03 13:20 Eastern Standard Time
+----------------------------------------------------------
+1/1 Testing: led_patterns
+1/1 Test: led_patterns
+Command: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests/Release/led_pattern_test.exe"
+Directory: C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests
+"led_patterns" start time: Nov 03 13:20 Eastern Standard Time
+Output:
+----------------------------------------------------------
+All 256 combinations, blink frequencies, duty cycles and boundaries passed.
+<end of output>
+Test time =   0.50 sec
+----------------------------------------------------------
+Test Passed.
+"led_patterns" end time: Nov 03 13:20 Eastern Standard Time
+"led_patterns" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 13:20 Eastern Standard Time

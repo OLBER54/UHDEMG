@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\build\led-tests\CMakeFiles\0f9b5153f3a08bc3459fcf74067e9ab8\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A6879854-610C-3BA1-A5D0-E45F67653A45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\tests\led_pattern_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{638D7CE6-39B6-3CE8-A50A-326BB93040F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

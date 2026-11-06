@@ -1,0 +1,3304 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26300 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.4.0+6e61e96ac for .NET Framework
+      Build started 2026-11-03 9:37:56 AM.
+      
+      Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\4.3.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.82
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/4.3.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lld-link.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lld-link.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lld-link"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/mt.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/mt.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/mt"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/rhd_native/bin/"
+      - "C:/Program Files (x86)/rhd_native/sbin/"
+      - "C:/Program Files (x86)/rhd_native/"
+    searched_directories:
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/rc.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/rc.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/rc"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.com"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc.exe"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/rhd_native/bin/rc.com"
+      - "C:/Program Files (x86)/rhd_native/bin/rc.exe"
+      - "C:/Program Files (x86)/rhd_native/bin/rc"
+      - "C:/Program Files (x86)/rhd_native/sbin/rc.com"
+      - "C:/Program Files (x86)/rhd_native/sbin/rc.exe"
+      - "C:/Program Files (x86)/rhd_native/sbin/rc"
+      - "C:/Program Files (x86)/rhd_native/rc.com"
+      - "C:/Program Files (x86)/rhd_native/rc.exe"
+      - "C:/Program Files (x86)/rhd_native/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-672cik"
+      binary: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-672cik"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-672cik'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f5965.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 2026-11-03 9:37:58 AM.
+        
+        Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-672cik\\cmTC_f5965.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-672cik\\Debug\\".
+          Creating directory "cmTC_f5965.dir\\Debug\\cmTC_f5965.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f5965.dir\\Debug\\cmTC_f5965.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f5965.dir\\Debug\\cmTC_f5965.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f5965.dir\\Debug\\\\" /Fd"cmTC_f5965.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_f5965.dir\\Debug\\\\" /Fd"cmTC_f5965.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-672cik\\Debug\\cmTC_f5965.exe" /INCREMENTAL /ILK:"cmTC_f5965.dir\\Debug\\cmTC_f5965.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-672cik/Debug/cmTC_f5965.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-672cik/Debug/cmTC_f5965.lib" /MACHINE:X64  /machine:x64 cmTC_f5965.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f5965.vcxproj -> C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-672cik\\Debug\\cmTC_f5965.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f5965.dir\\Debug\\cmTC_f5965.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f5965.dir\\Debug\\cmTC_f5965.tlog\\cmTC_f5965.lastbuildstate".
+        Done Building Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-672cik\\cmTC_f5965.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.53
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35728.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.14_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:3331 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "_Python_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python314"
+      - "python3.14"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/libs/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/python3.14/config-3.14/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/lib/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/lib/python3.14/config-3.14/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/libs/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/libs/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/python3.14/config-3.14/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/lib/python3.14/config-3.14/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/lib/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/lib/"
+    found: "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/python314.lib"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/rhd_native/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:3519 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "_Python_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python314_d"
+    candidate_directories:
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+    searched_directories:
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/rhd_native/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:1483 (find_library)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:3537 (_python_find_runtime_library)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "library"
+    variable: "_Python_RUNTIME_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python314"
+      - "python3.14"
+    candidate_directories:
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/bin/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Windows/System32/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/bin/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/bin/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bin/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/bin/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Git/cmd/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/bin/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/bin/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/bin/"
+      - "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/"
+      - "C:/Program Files/lib/bin/"
+      - "C:/Program Files/lib/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/lib/bin/"
+      - "C:/Program Files (x86)/lib/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/lib/bin/"
+      - "C:/Program Files/CMake/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/rhd_native/lib/bin/"
+      - "C:/Program Files (x86)/rhd_native/lib/"
+      - "C:/Program Files (x86)/rhd_native/bin/"
+      - "C:/Program Files (x86)/rhd_native/"
+      - "C:/Program Files (x86)/rhd_native/bin/bin/"
+      - "C:/Program Files (x86)/rhd_native/bin/"
+      - "/bin/bin/"
+      - "/bin/"
+    searched_directories:
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/libs/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/bin/"
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/bin/"
+    found: "C:/Users/olivi/AppData/Local/Programs/Python/Python314/python314.dll"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "C:/Program Files (x86)/rhd_native/bin"
+        - "C:/Program Files/CMake/bin"
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:3846 (find_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "path"
+    variable: "_Python_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "Python.h"
+    candidate_directories:
+      - "C:/Users/olivi/AppData/Local/Programs/Python/Python314/Include/"
+    found: "C:/Users/olivi/AppData/Local/Programs/Python/Python314/Include/"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:26 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3.3_d"
+      - "python3.2_d"
+      - "python3.1_d"
+      - "python3.0_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:29 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3.3_d"
+      - "python3.2_d"
+      - "python3.1_d"
+      - "python3.0_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:29 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3.3_d"
+      - "python3.2_d"
+      - "python3.1_d"
+      - "python3.0_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:29 (find_package)"
+    name: "pybind11"
+    configs:
+      -
+        filename: "pybind11.cps"
+        kind: "cps"
+      -
+        filename: "pybind11Config.cmake"
+        kind: "cmake"
+      -
+        filename: "pybind11-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "pybind11"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11.cps"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11Config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/\"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11\"/pybind11-config.cmake"
+        mode: "none?"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/pkgRedirects/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/wbem/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/WindowsPowerShell/v1.0/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/System32/OpenSSH/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Python/Launcher/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WindowsApps/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Microsoft/WinGet/Packages/Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/olivi/AppData/Local/Programs/Microsoft VS Code/bin/copilot-shim/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/CMake/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/pybind11-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/pybind11.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython/Support.cmake:2563 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindPython.cmake:700 (include)"
+      - "CMakeLists.txt:13 (find_package)"
+    mode: "program"
+    variable: "_Python_EXECUTABLE_DEBUG"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.15_d"
+      - "python3.14_d"
+      - "python3.13_d"
+      - "python3.12_d"
+      - "python3.11_d"
+      - "python3.10_d"
+      - "python3.9_d"
+      - "python3.8_d"
+      - "python3.7_d"
+      - "python3.6_d"
+      - "python3.5_d"
+      - "python3.4_d"
+      - "python3.3_d"
+      - "python3.2_d"
+      - "python3.1_d"
+      - "python3.0_d"
+      - "python3_d"
+      - "python_d"
+    candidate_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/"
+    searched_directories:
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.15_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.14_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.13_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.12_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.11_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.10_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.9_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.8_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.7_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.6_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.5_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.4_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.2_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.1_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3.0_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python3_d"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.com"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d.exe"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Scripts/python_d"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell"
+        - "C:\\Users\\olivi\\.codex\\tmp\\arg0-windows\\codex-arg0XO5EX5"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\libheif\\libheif\\bin"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\jxrlib\\jxrlib\\bin"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\poppler\\Library\\bin"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\override"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA App\\NvDLISR"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\olivi\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Ninja-build.Ninja_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Users\\olivi\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\bin\\fallback"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin"
+        - "C:\\Users\\olivi\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\git\\cmd"
+        - "C:\\Users\\olivi\\AppData\\Local\\OpenAI\\Codex\\bin\\57159798136552f4"
+        - "C:\\Users\\olivi\\AppData\\Local\\OpenAI\\Codex\\bin\\22cfb1d302613eae"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/rhd_native"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/rhd_native"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:338 (check_cxx_compiler_flag)"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:414 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:448 (_pybind11_generate_lto)"
+      - "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/.venv/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:29 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-38iinh"
+      binary: "C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-38iinh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-38iinh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_20c98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.4.0+6e61e96ac for .NET Framework
+        Build started 2026-11-03 9:52:00 AM.
+        
+        Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\cmTC_20c98.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\Debug\\".
+          Creating directory "cmTC_20c98.dir\\Debug\\cmTC_20c98.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_20c98.dir\\Debug\\cmTC_20c98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_20c98.dir\\Debug\\cmTC_20c98.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++14 /Fo"cmTC_20c98.dir\\Debug\\\\" /Fd"cmTC_20c98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\src.cxx"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35728 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /std:c++14 /Fo"cmTC_20c98.dir\\Debug\\\\" /Fd"cmTC_20c98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\src.cxx"
+          src.cxx
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\Debug\\cmTC_20c98.exe" /INCREMENTAL /ILK:"cmTC_20c98.dir\\Debug\\cmTC_20c98.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-38iinh/Debug/cmTC_20c98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/CMakeFiles/CMakeScratch/TryCompile-38iinh/Debug/cmTC_20c98.lib" /MACHINE:X64  /machine:x64 cmTC_20c98.dir\\Debug\\src.obj
+        LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\cmTC_20c98.vcxproj]
+          Generating code
+          Finished generating code
+          cmTC_20c98.vcxproj -> C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\Debug\\cmTC_20c98.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_20c98.dir\\Debug\\cmTC_20c98.tlog\\unsuccessfulbuild".
+          Touching "cmTC_20c98.dir\\Debug\\cmTC_20c98.tlog\\cmTC_20c98.lastbuildstate".
+        Done Building Project "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\cmTC_20c98.vcxproj" (default targets).
+        
+        Build succeeded.
+        
+        "C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\cmTC_20c98.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification [C:\\Users\\olivi\\Documents\\Universite Laval\\Maitrise\\Projet\\UHDEMG\\Code\\DataAPP\\cpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38iinh\\cmTC_20c98.vcxproj]
+        
+            1 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.97
+        
+      exitCode: 0
+...

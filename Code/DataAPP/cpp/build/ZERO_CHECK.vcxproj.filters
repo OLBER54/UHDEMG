@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\olivi\Documents\Universite Laval\Maitrise\Projet\UHDEMG\Code\DataAPP\cpp\build\CMakeFiles\e47a1c768b6df8aea25b6138ddda1059\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B1D16AB2-8232-3810-9727-96F64902C709}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

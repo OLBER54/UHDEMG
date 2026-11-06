@@ -1,0 +1,4 @@
+C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests/CMakeFiles/led_pattern_test.dir
+C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests/CMakeFiles/RUN_TESTS.dir
+C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests/CMakeFiles/ALL_BUILD.dir
+C:/Users/olivi/Documents/Universite Laval/Maitrise/Projet/UHDEMG/Code/DataAPP/cpp/build/led-tests/CMakeFiles/ZERO_CHECK.dir
